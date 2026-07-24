@@ -86,3 +86,37 @@ def test_bundled_public_skills_load_with_expected_metadata():
         assert skill.license, f"'{name}' is missing a license"
         assert skill.category == "public"
         assert skill.get_container_file_path() == f"/mnt/skills/public/{name}/SKILL.md"
+
+
+def test_bundled_public_skills_ship_referenced_assets():
+    """Supporting assets referenced by the bundled skills' SKILL.md must exist.
+
+    theme-factory points at themes/*.md and theme-showcase.pdf; internal-comms
+    points at examples/*.md. Removing or renaming these would silently degrade
+    the skills without failing the loader.
+    """
+    public_root = get_skills_root_path() / "public"
+
+    theme_dir = public_root / "theme-factory"
+    expected_themes = {
+        "ocean-depths",
+        "sunset-boulevard",
+        "forest-canopy",
+        "modern-minimalist",
+        "golden-hour",
+        "arctic-frost",
+        "desert-rose",
+        "tech-innovation",
+        "botanical-garden",
+        "midnight-galaxy",
+    }
+    found_themes = {p.stem for p in (theme_dir / "themes").glob("*.md")}
+    assert expected_themes <= found_themes, f"missing theme definitions: {expected_themes - found_themes}"
+
+    showcase = theme_dir / "theme-showcase.pdf"
+    assert showcase.is_file() and showcase.stat().st_size > 0, "theme-showcase.pdf is missing or empty"
+
+    comms_examples = public_root / "internal-comms" / "examples"
+    expected_examples = {"3p-updates.md", "company-newsletter.md", "faq-answers.md", "general-comms.md"}
+    found_examples = {p.name for p in comms_examples.glob("*.md")}
+    assert expected_examples <= found_examples, f"missing internal-comms examples: {expected_examples - found_examples}"
