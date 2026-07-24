@@ -62,3 +62,27 @@ def test_load_skills_skips_hidden_directories(tmp_path: Path):
 
     assert "ok-skill" in names
     assert "secret-skill" not in names
+
+
+def test_bundled_public_skills_load_with_expected_metadata():
+    """The bundled styling/comms skills should ship valid, parseable SKILL.md metadata.
+
+    Guards against frontmatter regressions (e.g. stray YAML quotes, missing
+    description) that would silently drop these skills from the loaded set.
+    """
+    skills = load_skills(use_config=False, enabled_only=False)
+    by_name = {skill.name: skill for skill in skills}
+
+    for name in ("theme-factory", "internal-comms", "brand-guidelines"):
+        assert name in by_name, f"bundled skill '{name}' was not discovered"
+        skill = by_name[name]
+
+        # Description must be present and free of the raw YAML quote delimiters
+        # that the custom frontmatter parser does not strip.
+        assert skill.description, f"'{name}' has an empty description"
+        assert not skill.description.startswith('"'), f"'{name}' description has a stray leading quote"
+        assert not skill.description.endswith('"'), f"'{name}' description has a stray trailing quote"
+
+        assert skill.license, f"'{name}' is missing a license"
+        assert skill.category == "public"
+        assert skill.get_container_file_path() == f"/mnt/skills/public/{name}/SKILL.md"
