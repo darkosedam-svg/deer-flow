@@ -62,3 +62,61 @@ def test_load_skills_skips_hidden_directories(tmp_path: Path):
 
     assert "ok-skill" in names
     assert "secret-skill" not in names
+
+
+def test_bundled_public_skills_load_with_expected_metadata():
+    """The bundled styling/comms skills should ship valid, parseable SKILL.md metadata.
+
+    Guards against frontmatter regressions (e.g. stray YAML quotes, missing
+    description) that would silently drop these skills from the loaded set.
+    """
+    skills = load_skills(use_config=False, enabled_only=False)
+    by_name = {skill.name: skill for skill in skills}
+
+    for name in ("theme-factory", "internal-comms", "brand-guidelines"):
+        assert name in by_name, f"bundled skill '{name}' was not discovered"
+        skill = by_name[name]
+
+        # Description must be present and free of the raw YAML quote delimiters
+        # that the custom frontmatter parser does not strip.
+        assert skill.description, f"'{name}' has an empty description"
+        assert not skill.description.startswith('"'), f"'{name}' description has a stray leading quote"
+        assert not skill.description.endswith('"'), f"'{name}' description has a stray trailing quote"
+
+        assert skill.license, f"'{name}' is missing a license"
+        assert skill.category == "public"
+        assert skill.get_container_file_path() == f"/mnt/skills/public/{name}/SKILL.md"
+
+
+def test_bundled_public_skills_ship_referenced_assets():
+    """Supporting assets referenced by the bundled skills' SKILL.md must exist.
+
+    theme-factory points at themes/*.md and theme-showcase.pdf; internal-comms
+    points at examples/*.md. Removing or renaming these would silently degrade
+    the skills without failing the loader.
+    """
+    public_root = get_skills_root_path() / "public"
+
+    theme_dir = public_root / "theme-factory"
+    expected_themes = {
+        "ocean-depths",
+        "sunset-boulevard",
+        "forest-canopy",
+        "modern-minimalist",
+        "golden-hour",
+        "arctic-frost",
+        "desert-rose",
+        "tech-innovation",
+        "botanical-garden",
+        "midnight-galaxy",
+    }
+    found_themes = {p.stem for p in (theme_dir / "themes").glob("*.md")}
+    assert expected_themes <= found_themes, f"missing theme definitions: {expected_themes - found_themes}"
+
+    showcase = theme_dir / "theme-showcase.pdf"
+    assert showcase.is_file() and showcase.stat().st_size > 0, "theme-showcase.pdf is missing or empty"
+
+    comms_examples = public_root / "internal-comms" / "examples"
+    expected_examples = {"3p-updates.md", "company-newsletter.md", "faq-answers.md", "general-comms.md"}
+    found_examples = {p.name for p in comms_examples.glob("*.md")}
+    assert expected_examples <= found_examples, f"missing internal-comms examples: {expected_examples - found_examples}"
