@@ -331,6 +331,44 @@ Endpoints (pick the one matching your API Key's environment):
 
 **Any other MCP client** needs just those two values: the MCP URL and the `x-api-key` header.
 
+### 8.1 Worked example (verified against a self-hosted instance)
+
+The unified MCP endpoint exposes 35 tools covering drafts, media, AI draft generation, publishing flows, platform metadata, analytics, and engagement. This complete session was run against a local Docker deployment with `curl` — any MCP client does the same under the hood.
+
+**1. Initialize the MCP session:**
+
+```bash
+curl -s -X POST http://localhost:8080/api/unified/mcp \
+  -H "x-api-key: $KEY" -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"demo","version":"1.0"}}}'
+# → {"result":{"protocolVersion":"2025-03-26","capabilities":{"tools":{"listChanged":true}},"serverInfo":{"name":"aitoearn","version":"1.0.0"}},...}
+```
+
+**2. Discover tools** with `{"method":"tools/list"}` — you get `createDraft`, `listDrafts`, `createVideoDraft` (AI generation), `createChannelPublishFlow`, `publishChannelTaskNow`, `getChannelAccountAnalytics`, `listChannelPlatforms`, and 28 more.
+
+**3. Create a draft:**
+
+```bash
+curl -s -X POST http://localhost:8080/api/unified/mcp \
+  -H "x-api-key: $KEY" -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"createDraft","arguments":{
+        "groupId":"<id from getDraftGroupInfoByName>",
+        "title":"5 Docker tips every developer should know",
+        "desc":"Quick carousel: healthchecks, compose overrides, named volumes... #docker",
+        "topics":["docker","devtips"],
+        "type":"article",
+        "mediaList":[{"url":"https://example.com/cover.png","type":"img"}]}}}'
+# → "Draft created successfully, ID: 6a651a96b87db9cacf19e606"
+```
+
+**4. The draft immediately appears in the web UI** under Content Management:
+
+![Draft created via MCP visible in the UI](images/aitoearn-draft-created.png)
+
+From here the same MCP surface can send it onward — `createChannelPublishFlow` schedules it to connected accounts, and `getDraftTaskStatus` tracks AI-generation tasks kicked off with `createVideoDraft`/`createImageTextDraft` (those need AI Relay or provider keys configured, see [§6](#6-configuration)).
+
 ---
 
 ## 9. Using AiToEarn in OpenClaw
