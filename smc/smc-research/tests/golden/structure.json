@@ -1,0 +1,9054 @@
+[
+ {
+  "timestamp": "2024-01-01T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40417.06,
+  "meta": {
+   "pivot_time": "2024-01-01T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40184.65,
+  "meta": {
+   "pivot_time": "2024-01-01T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T02:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 40417.06,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-01T05:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41311.05,
+  "meta": {
+   "pivot_time": "2024-01-01T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T06:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 41311.05,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-01T06:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41132.99,
+  "meta": {
+   "pivot_time": "2024-01-01T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T07:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41459.84,
+  "meta": {
+   "pivot_time": "2024-01-01T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T08:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41296.13,
+  "meta": {
+   "pivot_time": "2024-01-01T07:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T08:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 41459.84,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-01T12:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42173.48,
+  "meta": {
+   "pivot_time": "2024-01-01T11:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T12:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41886.76,
+  "meta": {
+   "pivot_time": "2024-01-01T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T13:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 41886.76,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-01T13:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42121.12,
+  "meta": {
+   "pivot_time": "2024-01-01T12:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T17:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40922.13,
+  "meta": {
+   "pivot_time": "2024-01-01T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T17:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 40922.13,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-01T19:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40709.18,
+  "meta": {
+   "pivot_time": "2024-01-01T18:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T20:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40953.89,
+  "meta": {
+   "pivot_time": "2024-01-01T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40707.29,
+  "meta": {
+   "pivot_time": "2024-01-01T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T21:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40936.33,
+  "meta": {
+   "pivot_time": "2024-01-01T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T21:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 40707.29,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T01:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40329.16,
+  "meta": {
+   "pivot_time": "2024-01-02T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40508.07,
+  "meta": {
+   "pivot_time": "2024-01-02T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T02:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 40936.33,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41429.41,
+  "meta": {
+   "pivot_time": "2024-01-02T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T05:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 41429.41,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T07:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41738.66,
+  "meta": {
+   "pivot_time": "2024-01-02T06:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T08:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41510.84,
+  "meta": {
+   "pivot_time": "2024-01-02T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T08:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 41738.66,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T09:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42253.8,
+  "meta": {
+   "pivot_time": "2024-01-02T08:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T10:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42040.27,
+  "meta": {
+   "pivot_time": "2024-01-02T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T10:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 42253.8,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T12:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42668.9,
+  "meta": {
+   "pivot_time": "2024-01-02T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T13:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 42668.9,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T19:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44272.02,
+  "meta": {
+   "pivot_time": "2024-01-02T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T19:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43960.79,
+  "meta": {
+   "pivot_time": "2024-01-02T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43941.3,
+  "meta": {
+   "pivot_time": "2024-01-02T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T21:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44272.02,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-02T22:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44062.96,
+  "meta": {
+   "pivot_time": "2024-01-02T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T00:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45230.7,
+  "meta": {
+   "pivot_time": "2024-01-03T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T01:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45028.51,
+  "meta": {
+   "pivot_time": "2024-01-03T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T02:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45311.84,
+  "meta": {
+   "pivot_time": "2024-01-03T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T03:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44982.11,
+  "meta": {
+   "pivot_time": "2024-01-03T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T04:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45245.91,
+  "meta": {
+   "pivot_time": "2024-01-03T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T04:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 44982.11,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-03T05:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44837.96,
+  "meta": {
+   "pivot_time": "2024-01-03T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T05:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44837.96,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-03T07:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44367.26,
+  "meta": {
+   "pivot_time": "2024-01-03T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T08:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44587.59,
+  "meta": {
+   "pivot_time": "2024-01-03T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T08:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44337.66,
+  "meta": {
+   "pivot_time": "2024-01-03T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44606.29,
+  "meta": {
+   "pivot_time": "2024-01-03T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T09:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44337.66,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-03T10:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44197.43,
+  "meta": {
+   "pivot_time": "2024-01-03T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T11:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44467.16,
+  "meta": {
+   "pivot_time": "2024-01-03T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T12:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44197.43,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-03T13:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43951.1,
+  "meta": {
+   "pivot_time": "2024-01-03T12:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T14:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44214.53,
+  "meta": {
+   "pivot_time": "2024-01-03T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43946.44,
+  "meta": {
+   "pivot_time": "2024-01-03T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T15:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 43946.44,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-03T18:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 43671.71,
+  "meta": {
+   "pivot_time": "2024-01-03T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T22:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42866.4,
+  "meta": {
+   "pivot_time": "2024-01-03T21:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 43136.54,
+  "meta": {
+   "pivot_time": "2024-01-03T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T01:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 43253.57,
+  "meta": {
+   "pivot_time": "2024-01-04T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T01:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 42866.4,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-04T03:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42675.36,
+  "meta": {
+   "pivot_time": "2024-01-04T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T04:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42899.1,
+  "meta": {
+   "pivot_time": "2024-01-04T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T04:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 42899.1,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-04T05:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42695.18,
+  "meta": {
+   "pivot_time": "2024-01-04T04:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T09:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44056.93,
+  "meta": {
+   "pivot_time": "2024-01-04T08:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T09:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44056.93,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-04T10:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43747.55,
+  "meta": {
+   "pivot_time": "2024-01-04T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T13:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44750.61,
+  "meta": {
+   "pivot_time": "2024-01-04T12:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T14:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44414.9,
+  "meta": {
+   "pivot_time": "2024-01-04T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T14:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44750.61,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-04T15:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44961.58,
+  "meta": {
+   "pivot_time": "2024-01-04T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T16:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44683.63,
+  "meta": {
+   "pivot_time": "2024-01-04T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T17:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44961.58,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-04T20:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45151.13,
+  "meta": {
+   "pivot_time": "2024-01-04T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T20:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45562.6,
+  "meta": {
+   "pivot_time": "2024-01-04T20:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T21:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45151.23,
+  "meta": {
+   "pivot_time": "2024-01-04T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T21:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45469.23,
+  "meta": {
+   "pivot_time": "2024-01-04T21:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45158.86,
+  "meta": {
+   "pivot_time": "2024-01-04T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T23:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45506.25,
+  "meta": {
+   "pivot_time": "2024-01-04T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T00:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45242.51,
+  "meta": {
+   "pivot_time": "2024-01-04T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T01:30:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 45242.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-05T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45160.48,
+  "meta": {
+   "pivot_time": "2024-01-05T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T03:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45515.4,
+  "meta": {
+   "pivot_time": "2024-01-05T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T04:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 45160.48,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-05T05:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45088.65,
+  "meta": {
+   "pivot_time": "2024-01-05T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T06:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 45515.4,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-05T08:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45811.2,
+  "meta": {
+   "pivot_time": "2024-01-05T07:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T10:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 45811.2,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-05T10:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46007.81,
+  "meta": {
+   "pivot_time": "2024-01-05T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T12:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45868.68,
+  "meta": {
+   "pivot_time": "2024-01-05T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T12:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45647.28,
+  "meta": {
+   "pivot_time": "2024-01-05T12:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T12:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 45868.68,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-05T16:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46813.71,
+  "meta": {
+   "pivot_time": "2024-01-05T15:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T16:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46544.97,
+  "meta": {
+   "pivot_time": "2024-01-05T16:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T19:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46904.12,
+  "meta": {
+   "pivot_time": "2024-01-05T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T20:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46544.32,
+  "meta": {
+   "pivot_time": "2024-01-05T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T20:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 46904.12,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-05T22:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47512.03,
+  "meta": {
+   "pivot_time": "2024-01-05T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T00:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47525.99,
+  "meta": {
+   "pivot_time": "2024-01-05T23:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T01:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47203.93,
+  "meta": {
+   "pivot_time": "2024-01-06T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T01:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 47525.99,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-06T02:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47726.91,
+  "meta": {
+   "pivot_time": "2024-01-06T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T02:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 47726.91,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-06T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48930.98,
+  "meta": {
+   "pivot_time": "2024-01-06T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48913.39,
+  "meta": {
+   "pivot_time": "2024-01-06T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T10:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48654.61,
+  "meta": {
+   "pivot_time": "2024-01-06T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T10:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48913.39,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-06T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49509.37,
+  "meta": {
+   "pivot_time": "2024-01-06T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T18:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50647.23,
+  "meta": {
+   "pivot_time": "2024-01-06T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T18:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50647.23,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-06T19:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50742.67,
+  "meta": {
+   "pivot_time": "2024-01-06T18:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T19:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50742.67,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-06T20:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50410.21,
+  "meta": {
+   "pivot_time": "2024-01-06T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51121.33,
+  "meta": {
+   "pivot_time": "2024-01-06T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T01:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52376.63,
+  "meta": {
+   "pivot_time": "2024-01-07T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T02:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52376.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-07T02:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52480.63,
+  "meta": {
+   "pivot_time": "2024-01-07T02:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T03:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52164.3,
+  "meta": {
+   "pivot_time": "2024-01-07T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T04:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52480.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-07T04:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52195.24,
+  "meta": {
+   "pivot_time": "2024-01-07T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52530.75,
+  "meta": {
+   "pivot_time": "2024-01-07T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T05:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52230.06,
+  "meta": {
+   "pivot_time": "2024-01-07T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T06:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52531.72,
+  "meta": {
+   "pivot_time": "2024-01-07T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T07:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 52230.06,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-07T07:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51990.29,
+  "meta": {
+   "pivot_time": "2024-01-07T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T08:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 51990.29,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-07T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52378.88,
+  "meta": {
+   "pivot_time": "2024-01-07T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T12:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51358.77,
+  "meta": {
+   "pivot_time": "2024-01-07T11:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T16:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50151.89,
+  "meta": {
+   "pivot_time": "2024-01-07T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T16:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50151.89,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-07T19:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49364.36,
+  "meta": {
+   "pivot_time": "2024-01-07T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49770.31,
+  "meta": {
+   "pivot_time": "2024-01-07T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T20:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49322.54,
+  "meta": {
+   "pivot_time": "2024-01-07T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T21:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 49770.31,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-07T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49842.21,
+  "meta": {
+   "pivot_time": "2024-01-07T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T02:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51041.83,
+  "meta": {
+   "pivot_time": "2024-01-08T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T03:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50732.53,
+  "meta": {
+   "pivot_time": "2024-01-08T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T04:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51146.18,
+  "meta": {
+   "pivot_time": "2024-01-08T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T04:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51146.18,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-08T06:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51477.27,
+  "meta": {
+   "pivot_time": "2024-01-08T05:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T07:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51386.26,
+  "meta": {
+   "pivot_time": "2024-01-08T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T07:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51134.42,
+  "meta": {
+   "pivot_time": "2024-01-08T06:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T08:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51386.26,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-08T08:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51100.15,
+  "meta": {
+   "pivot_time": "2024-01-08T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51538.1,
+  "meta": {
+   "pivot_time": "2024-01-08T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T11:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51106.88,
+  "meta": {
+   "pivot_time": "2024-01-08T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T12:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51538.1,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-08T14:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51416.02,
+  "meta": {
+   "pivot_time": "2024-01-08T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T14:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51707.14,
+  "meta": {
+   "pivot_time": "2024-01-08T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T15:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51776.23,
+  "meta": {
+   "pivot_time": "2024-01-08T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T16:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51498.31,
+  "meta": {
+   "pivot_time": "2024-01-08T16:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T17:30:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 51498.31,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-08T18:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51790.76,
+  "meta": {
+   "pivot_time": "2024-01-08T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51415.65,
+  "meta": {
+   "pivot_time": "2024-01-08T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T19:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51768.51,
+  "meta": {
+   "pivot_time": "2024-01-08T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T20:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51739.6,
+  "meta": {
+   "pivot_time": "2024-01-08T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T20:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 51415.65,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T01:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49762.93,
+  "meta": {
+   "pivot_time": "2024-01-09T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T02:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50076.29,
+  "meta": {
+   "pivot_time": "2024-01-09T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T02:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49762.93,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T04:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49172.12,
+  "meta": {
+   "pivot_time": "2024-01-09T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T05:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49172.12,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T05:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49364.24,
+  "meta": {
+   "pivot_time": "2024-01-09T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T06:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48955.56,
+  "meta": {
+   "pivot_time": "2024-01-09T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T06:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49259.57,
+  "meta": {
+   "pivot_time": "2024-01-09T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T07:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48955.56,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T10:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48763.19,
+  "meta": {
+   "pivot_time": "2024-01-09T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T11:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48153.25,
+  "meta": {
+   "pivot_time": "2024-01-09T10:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48559.46,
+  "meta": {
+   "pivot_time": "2024-01-09T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T13:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48181.83,
+  "meta": {
+   "pivot_time": "2024-01-09T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T13:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48559.46,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T15:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48901.68,
+  "meta": {
+   "pivot_time": "2024-01-09T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T16:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48612.57,
+  "meta": {
+   "pivot_time": "2024-01-09T15:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48878.7,
+  "meta": {
+   "pivot_time": "2024-01-09T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48628.56,
+  "meta": {
+   "pivot_time": "2024-01-09T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T19:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48864.85,
+  "meta": {
+   "pivot_time": "2024-01-09T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T19:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48594.43,
+  "meta": {
+   "pivot_time": "2024-01-09T18:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48864.85,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T20:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48674.85,
+  "meta": {
+   "pivot_time": "2024-01-09T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T20:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48986.32,
+  "meta": {
+   "pivot_time": "2024-01-09T20:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T22:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48952.99,
+  "meta": {
+   "pivot_time": "2024-01-09T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T22:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48674.85,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-09T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48609.08,
+  "meta": {
+   "pivot_time": "2024-01-09T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T23:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48609.08,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T00:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48462.4,
+  "meta": {
+   "pivot_time": "2024-01-09T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T01:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48462.4,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T02:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48370.34,
+  "meta": {
+   "pivot_time": "2024-01-10T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T03:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48821.36,
+  "meta": {
+   "pivot_time": "2024-01-10T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T04:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48480.19,
+  "meta": {
+   "pivot_time": "2024-01-10T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T04:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48813.44,
+  "meta": {
+   "pivot_time": "2024-01-10T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T05:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48562.99,
+  "meta": {
+   "pivot_time": "2024-01-10T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T06:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48751.51,
+  "meta": {
+   "pivot_time": "2024-01-10T05:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T07:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48751.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T09:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49155.73,
+  "meta": {
+   "pivot_time": "2024-01-10T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T11:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48562.99,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T12:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48480.34,
+  "meta": {
+   "pivot_time": "2024-01-10T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T13:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48498.46,
+  "meta": {
+   "pivot_time": "2024-01-10T12:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T15:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48844.18,
+  "meta": {
+   "pivot_time": "2024-01-10T14:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T15:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48547.42,
+  "meta": {
+   "pivot_time": "2024-01-10T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T16:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48844.18,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T17:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49084.2,
+  "meta": {
+   "pivot_time": "2024-01-10T16:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T18:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48714.81,
+  "meta": {
+   "pivot_time": "2024-01-10T17:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49013.51,
+  "meta": {
+   "pivot_time": "2024-01-10T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T20:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48726.44,
+  "meta": {
+   "pivot_time": "2024-01-10T19:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T20:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49013.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T21:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49156.28,
+  "meta": {
+   "pivot_time": "2024-01-10T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T21:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49156.28,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-10T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49076.13,
+  "meta": {
+   "pivot_time": "2024-01-10T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49519.3,
+  "meta": {
+   "pivot_time": "2024-01-10T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T00:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49274.2,
+  "meta": {
+   "pivot_time": "2024-01-10T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T00:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49519.3,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-11T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49807.78,
+  "meta": {
+   "pivot_time": "2024-01-11T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T02:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49744.05,
+  "meta": {
+   "pivot_time": "2024-01-11T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49526.17,
+  "meta": {
+   "pivot_time": "2024-01-11T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T03:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49744.05,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-11T04:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49526.17,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-11T04:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49880.7,
+  "meta": {
+   "pivot_time": "2024-01-11T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T05:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49412.68,
+  "meta": {
+   "pivot_time": "2024-01-11T04:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T05:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49854.4,
+  "meta": {
+   "pivot_time": "2024-01-11T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T06:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49513.35,
+  "meta": {
+   "pivot_time": "2024-01-11T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T07:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49595.83,
+  "meta": {
+   "pivot_time": "2024-01-11T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49897.01,
+  "meta": {
+   "pivot_time": "2024-01-11T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T08:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49876.5,
+  "meta": {
+   "pivot_time": "2024-01-11T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T09:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49595.83,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-11T09:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49843.23,
+  "meta": {
+   "pivot_time": "2024-01-11T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T14:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48907.58,
+  "meta": {
+   "pivot_time": "2024-01-11T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T14:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48509.37,
+  "meta": {
+   "pivot_time": "2024-01-11T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T15:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48812.29,
+  "meta": {
+   "pivot_time": "2024-01-11T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T16:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48509.37,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-11T20:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47769.06,
+  "meta": {
+   "pivot_time": "2024-01-11T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T21:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47769.06,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-11T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47485.79,
+  "meta": {
+   "pivot_time": "2024-01-11T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T23:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47756.61,
+  "meta": {
+   "pivot_time": "2024-01-11T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T00:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47485.79,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-12T01:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47262.77,
+  "meta": {
+   "pivot_time": "2024-01-12T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T02:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47262.77,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-12T03:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47410.45,
+  "meta": {
+   "pivot_time": "2024-01-12T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T04:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46940.65,
+  "meta": {
+   "pivot_time": "2024-01-12T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T05:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47280.62,
+  "meta": {
+   "pivot_time": "2024-01-12T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T06:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 46940.65,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-12T08:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46101.64,
+  "meta": {
+   "pivot_time": "2024-01-12T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T09:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 46101.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-12T09:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46304.66,
+  "meta": {
+   "pivot_time": "2024-01-12T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T10:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46051.18,
+  "meta": {
+   "pivot_time": "2024-01-12T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T12:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45470.47,
+  "meta": {
+   "pivot_time": "2024-01-12T11:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T14:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45976.8,
+  "meta": {
+   "pivot_time": "2024-01-12T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T16:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45539.31,
+  "meta": {
+   "pivot_time": "2024-01-12T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T16:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45823.41,
+  "meta": {
+   "pivot_time": "2024-01-12T16:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T17:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 45539.31,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-12T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45489.77,
+  "meta": {
+   "pivot_time": "2024-01-12T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T19:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45585.05,
+  "meta": {
+   "pivot_time": "2024-01-12T18:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T20:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 45823.41,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-12T21:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45985.54,
+  "meta": {
+   "pivot_time": "2024-01-12T20:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T22:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45797.45,
+  "meta": {
+   "pivot_time": "2024-01-12T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T22:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45992.17,
+  "meta": {
+   "pivot_time": "2024-01-12T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T23:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 45992.17,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T00:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46132.19,
+  "meta": {
+   "pivot_time": "2024-01-12T23:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T00:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45877.77,
+  "meta": {
+   "pivot_time": "2024-01-12T23:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T00:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 46132.19,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T01:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45939.43,
+  "meta": {
+   "pivot_time": "2024-01-13T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46190.87,
+  "meta": {
+   "pivot_time": "2024-01-13T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45934.58,
+  "meta": {
+   "pivot_time": "2024-01-13T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T02:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 46190.87,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T04:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46323.68,
+  "meta": {
+   "pivot_time": "2024-01-13T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T04:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 45934.58,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T05:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45838.99,
+  "meta": {
+   "pivot_time": "2024-01-13T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T06:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46088.2,
+  "meta": {
+   "pivot_time": "2024-01-13T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T06:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 45838.99,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T08:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45617.92,
+  "meta": {
+   "pivot_time": "2024-01-13T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46041.05,
+  "meta": {
+   "pivot_time": "2024-01-13T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T10:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45752.16,
+  "meta": {
+   "pivot_time": "2024-01-13T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T10:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 46041.05,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46221.27,
+  "meta": {
+   "pivot_time": "2024-01-13T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T13:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46106.96,
+  "meta": {
+   "pivot_time": "2024-01-13T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T13:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 45752.16,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T15:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45702.59,
+  "meta": {
+   "pivot_time": "2024-01-13T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T19:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44781.65,
+  "meta": {
+   "pivot_time": "2024-01-13T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44781.65,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T21:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44614.0,
+  "meta": {
+   "pivot_time": "2024-01-13T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T21:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44614.0,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-13T22:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44777.46,
+  "meta": {
+   "pivot_time": "2024-01-13T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T23:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44203.07,
+  "meta": {
+   "pivot_time": "2024-01-13T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T00:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44196.07,
+  "meta": {
+   "pivot_time": "2024-01-13T23:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T01:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44475.38,
+  "meta": {
+   "pivot_time": "2024-01-14T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T01:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44196.07,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-14T08:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42204.77,
+  "meta": {
+   "pivot_time": "2024-01-14T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42414.79,
+  "meta": {
+   "pivot_time": "2024-01-14T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T09:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 42204.77,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-14T11:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41934.57,
+  "meta": {
+   "pivot_time": "2024-01-14T10:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T11:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 41934.57,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-14T12:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42100.05,
+  "meta": {
+   "pivot_time": "2024-01-14T11:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T18:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40340.63,
+  "meta": {
+   "pivot_time": "2024-01-14T17:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40679.37,
+  "meta": {
+   "pivot_time": "2024-01-14T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 40340.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-14T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 39973.5,
+  "meta": {
+   "pivot_time": "2024-01-14T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T23:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 39973.5,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-15T00:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 39689.32,
+  "meta": {
+   "pivot_time": "2024-01-15T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T01:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 39689.32,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-15T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 39886.75,
+  "meta": {
+   "pivot_time": "2024-01-15T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T02:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 39631.98,
+  "meta": {
+   "pivot_time": "2024-01-15T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T02:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 39886.75,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-15T06:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40521.46,
+  "meta": {
+   "pivot_time": "2024-01-15T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T06:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40180.3,
+  "meta": {
+   "pivot_time": "2024-01-15T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T07:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40221.36,
+  "meta": {
+   "pivot_time": "2024-01-15T06:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T08:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 40521.46,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-15T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42723.5,
+  "meta": {
+   "pivot_time": "2024-01-15T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T21:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42338.24,
+  "meta": {
+   "pivot_time": "2024-01-15T20:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T22:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 42723.5,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T03:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44205.25,
+  "meta": {
+   "pivot_time": "2024-01-16T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T03:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43964.45,
+  "meta": {
+   "pivot_time": "2024-01-16T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T05:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44205.25,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T08:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44741.02,
+  "meta": {
+   "pivot_time": "2024-01-16T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T09:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44378.35,
+  "meta": {
+   "pivot_time": "2024-01-16T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T10:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44741.02,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T12:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44963.74,
+  "meta": {
+   "pivot_time": "2024-01-16T11:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T13:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 44963.74,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T13:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44684.01,
+  "meta": {
+   "pivot_time": "2024-01-16T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44908.54,
+  "meta": {
+   "pivot_time": "2024-01-16T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T15:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45169.06,
+  "meta": {
+   "pivot_time": "2024-01-16T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T16:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45131.49,
+  "meta": {
+   "pivot_time": "2024-01-16T15:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T16:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44895.51,
+  "meta": {
+   "pivot_time": "2024-01-16T16:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45100.88,
+  "meta": {
+   "pivot_time": "2024-01-16T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T17:30:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 44895.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T18:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44687.09,
+  "meta": {
+   "pivot_time": "2024-01-16T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T19:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44952.67,
+  "meta": {
+   "pivot_time": "2024-01-16T18:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44687.09,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T20:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44886.68,
+  "meta": {
+   "pivot_time": "2024-01-16T19:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T21:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44873.41,
+  "meta": {
+   "pivot_time": "2024-01-16T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T21:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44585.71,
+  "meta": {
+   "pivot_time": "2024-01-16T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T23:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44848.11,
+  "meta": {
+   "pivot_time": "2024-01-16T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T23:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 44848.11,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-16T23:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44604.34,
+  "meta": {
+   "pivot_time": "2024-01-16T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T01:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45186.82,
+  "meta": {
+   "pivot_time": "2024-01-17T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T01:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44785.52,
+  "meta": {
+   "pivot_time": "2024-01-17T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44806.41,
+  "meta": {
+   "pivot_time": "2024-01-17T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T02:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45237.58,
+  "meta": {
+   "pivot_time": "2024-01-17T02:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T03:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45000.8,
+  "meta": {
+   "pivot_time": "2024-01-17T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T04:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 45237.58,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-17T05:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45144.17,
+  "meta": {
+   "pivot_time": "2024-01-17T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46728.35,
+  "meta": {
+   "pivot_time": "2024-01-17T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T17:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47004.74,
+  "meta": {
+   "pivot_time": "2024-01-17T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T18:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47411.52,
+  "meta": {
+   "pivot_time": "2024-01-17T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 47411.52,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-17T21:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47595.39,
+  "meta": {
+   "pivot_time": "2024-01-17T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T22:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47561.05,
+  "meta": {
+   "pivot_time": "2024-01-17T21:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T22:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47179.44,
+  "meta": {
+   "pivot_time": "2024-01-17T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T23:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 47179.44,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-18T01:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46935.31,
+  "meta": {
+   "pivot_time": "2024-01-18T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T02:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47115.92,
+  "meta": {
+   "pivot_time": "2024-01-18T02:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T03:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47419.0,
+  "meta": {
+   "pivot_time": "2024-01-18T02:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T04:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47419.0,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-18T04:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47127.58,
+  "meta": {
+   "pivot_time": "2024-01-18T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T05:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47468.88,
+  "meta": {
+   "pivot_time": "2024-01-18T04:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T06:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47181.15,
+  "meta": {
+   "pivot_time": "2024-01-18T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T06:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47449.51,
+  "meta": {
+   "pivot_time": "2024-01-18T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47494.13,
+  "meta": {
+   "pivot_time": "2024-01-18T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T07:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 47181.15,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-18T09:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46959.5,
+  "meta": {
+   "pivot_time": "2024-01-18T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T09:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47272.91,
+  "meta": {
+   "pivot_time": "2024-01-18T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T11:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46990.59,
+  "meta": {
+   "pivot_time": "2024-01-18T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T12:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47307.09,
+  "meta": {
+   "pivot_time": "2024-01-18T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T13:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 46990.59,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-18T14:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46795.18,
+  "meta": {
+   "pivot_time": "2024-01-18T13:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T16:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47175.07,
+  "meta": {
+   "pivot_time": "2024-01-18T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T17:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47175.07,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-18T17:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46950.42,
+  "meta": {
+   "pivot_time": "2024-01-18T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T21:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48464.61,
+  "meta": {
+   "pivot_time": "2024-01-18T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T22:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48541.04,
+  "meta": {
+   "pivot_time": "2024-01-18T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48265.27,
+  "meta": {
+   "pivot_time": "2024-01-18T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T23:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48541.04,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T01:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49073.46,
+  "meta": {
+   "pivot_time": "2024-01-19T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48698.21,
+  "meta": {
+   "pivot_time": "2024-01-19T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T03:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48699.64,
+  "meta": {
+   "pivot_time": "2024-01-19T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T03:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49073.46,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T06:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49462.94,
+  "meta": {
+   "pivot_time": "2024-01-19T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T06:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49132.94,
+  "meta": {
+   "pivot_time": "2024-01-19T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T07:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49132.94,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T08:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48826.65,
+  "meta": {
+   "pivot_time": "2024-01-19T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49336.97,
+  "meta": {
+   "pivot_time": "2024-01-19T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T10:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48826.65,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T11:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48712.35,
+  "meta": {
+   "pivot_time": "2024-01-19T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T13:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49228.36,
+  "meta": {
+   "pivot_time": "2024-01-19T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T14:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49265.01,
+  "meta": {
+   "pivot_time": "2024-01-19T13:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T15:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48878.64,
+  "meta": {
+   "pivot_time": "2024-01-19T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T15:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49261.7,
+  "meta": {
+   "pivot_time": "2024-01-19T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T16:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 49261.7,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T17:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49517.63,
+  "meta": {
+   "pivot_time": "2024-01-19T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T18:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49207.27,
+  "meta": {
+   "pivot_time": "2024-01-19T17:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T18:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49517.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49629.86,
+  "meta": {
+   "pivot_time": "2024-01-19T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49629.86,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-19T20:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49282.25,
+  "meta": {
+   "pivot_time": "2024-01-19T19:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T22:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49967.44,
+  "meta": {
+   "pivot_time": "2024-01-19T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T22:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49668.01,
+  "meta": {
+   "pivot_time": "2024-01-19T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T23:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49967.44,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T00:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49929.12,
+  "meta": {
+   "pivot_time": "2024-01-20T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T02:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50425.82,
+  "meta": {
+   "pivot_time": "2024-01-20T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T03:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50505.2,
+  "meta": {
+   "pivot_time": "2024-01-20T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T03:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50186.84,
+  "meta": {
+   "pivot_time": "2024-01-20T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T04:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50505.2,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50558.38,
+  "meta": {
+   "pivot_time": "2024-01-20T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T06:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50558.38,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T06:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50192.93,
+  "meta": {
+   "pivot_time": "2024-01-20T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T08:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50799.92,
+  "meta": {
+   "pivot_time": "2024-01-20T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T08:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50799.92,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T08:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50501.01,
+  "meta": {
+   "pivot_time": "2024-01-20T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T09:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50848.88,
+  "meta": {
+   "pivot_time": "2024-01-20T08:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T09:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50848.88,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T12:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51213.23,
+  "meta": {
+   "pivot_time": "2024-01-20T12:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T14:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51921.73,
+  "meta": {
+   "pivot_time": "2024-01-20T13:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T15:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51921.73,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T17:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51850.04,
+  "meta": {
+   "pivot_time": "2024-01-20T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T20:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52668.24,
+  "meta": {
+   "pivot_time": "2024-01-20T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T21:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53189.56,
+  "meta": {
+   "pivot_time": "2024-01-20T21:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T22:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 52668.24,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-20T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52506.39,
+  "meta": {
+   "pivot_time": "2024-01-20T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T00:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52436.88,
+  "meta": {
+   "pivot_time": "2024-01-21T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52720.24,
+  "meta": {
+   "pivot_time": "2024-01-21T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T01:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 52436.88,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-21T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51752.23,
+  "meta": {
+   "pivot_time": "2024-01-21T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T08:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50932.16,
+  "meta": {
+   "pivot_time": "2024-01-21T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T10:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51002.87,
+  "meta": {
+   "pivot_time": "2024-01-21T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T11:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51691.06,
+  "meta": {
+   "pivot_time": "2024-01-21T10:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T12:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 51691.06,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-21T12:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51492.85,
+  "meta": {
+   "pivot_time": "2024-01-21T11:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T14:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52316.58,
+  "meta": {
+   "pivot_time": "2024-01-21T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52008.36,
+  "meta": {
+   "pivot_time": "2024-01-21T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T16:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52328.25,
+  "meta": {
+   "pivot_time": "2024-01-21T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T16:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52328.25,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-21T20:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53394.15,
+  "meta": {
+   "pivot_time": "2024-01-21T19:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T00:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 52008.36,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-22T02:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51901.09,
+  "meta": {
+   "pivot_time": "2024-01-22T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51558.18,
+  "meta": {
+   "pivot_time": "2024-01-22T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T03:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51974.41,
+  "meta": {
+   "pivot_time": "2024-01-22T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T04:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51622.51,
+  "meta": {
+   "pivot_time": "2024-01-22T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T04:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51890.17,
+  "meta": {
+   "pivot_time": "2024-01-22T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T05:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 51622.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-22T09:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50155.64,
+  "meta": {
+   "pivot_time": "2024-01-22T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51153.0,
+  "meta": {
+   "pivot_time": "2024-01-22T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T12:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50851.47,
+  "meta": {
+   "pivot_time": "2024-01-22T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T12:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 51153.0,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-22T13:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51346.05,
+  "meta": {
+   "pivot_time": "2024-01-22T12:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T14:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50971.94,
+  "meta": {
+   "pivot_time": "2024-01-22T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T15:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51009.18,
+  "meta": {
+   "pivot_time": "2024-01-22T14:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T15:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51346.05,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-22T17:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51521.97,
+  "meta": {
+   "pivot_time": "2024-01-22T16:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T17:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51268.96,
+  "meta": {
+   "pivot_time": "2024-01-22T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T17:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51521.97,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-22T21:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52173.81,
+  "meta": {
+   "pivot_time": "2024-01-22T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T21:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51870.16,
+  "meta": {
+   "pivot_time": "2024-01-22T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T21:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52173.81,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-22T22:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52372.25,
+  "meta": {
+   "pivot_time": "2024-01-22T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52064.92,
+  "meta": {
+   "pivot_time": "2024-01-22T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T23:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52372.25,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-23T00:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52595.61,
+  "meta": {
+   "pivot_time": "2024-01-22T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T01:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52356.67,
+  "meta": {
+   "pivot_time": "2024-01-23T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T01:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52595.61,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-23T02:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52792.51,
+  "meta": {
+   "pivot_time": "2024-01-23T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T03:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52498.14,
+  "meta": {
+   "pivot_time": "2024-01-23T02:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T03:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52792.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-23T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53021.03,
+  "meta": {
+   "pivot_time": "2024-01-23T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T05:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52777.42,
+  "meta": {
+   "pivot_time": "2024-01-23T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T05:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 53021.03,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-23T08:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53876.51,
+  "meta": {
+   "pivot_time": "2024-01-23T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T09:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53552.24,
+  "meta": {
+   "pivot_time": "2024-01-23T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T10:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 53552.24,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-23T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53878.46,
+  "meta": {
+   "pivot_time": "2024-01-23T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T16:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51792.86,
+  "meta": {
+   "pivot_time": "2024-01-23T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52268.99,
+  "meta": {
+   "pivot_time": "2024-01-23T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T18:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52177.59,
+  "meta": {
+   "pivot_time": "2024-01-23T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T18:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 51792.86,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-23T22:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51284.93,
+  "meta": {
+   "pivot_time": "2024-01-23T21:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T01:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50115.96,
+  "meta": {
+   "pivot_time": "2024-01-24T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T02:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50115.96,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T02:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50301.35,
+  "meta": {
+   "pivot_time": "2024-01-24T02:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T05:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49495.28,
+  "meta": {
+   "pivot_time": "2024-01-24T04:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T06:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49733.88,
+  "meta": {
+   "pivot_time": "2024-01-24T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T06:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49495.28,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T06:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49315.34,
+  "meta": {
+   "pivot_time": "2024-01-24T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T07:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49315.34,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T08:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49059.74,
+  "meta": {
+   "pivot_time": "2024-01-24T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49349.64,
+  "meta": {
+   "pivot_time": "2024-01-24T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T10:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49059.74,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T11:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48949.76,
+  "meta": {
+   "pivot_time": "2024-01-24T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T11:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 49349.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T12:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49423.96,
+  "meta": {
+   "pivot_time": "2024-01-24T12:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T13:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49142.34,
+  "meta": {
+   "pivot_time": "2024-01-24T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T13:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49423.96,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50430.95,
+  "meta": {
+   "pivot_time": "2024-01-24T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50137.9,
+  "meta": {
+   "pivot_time": "2024-01-24T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T18:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50430.95,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T20:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50960.08,
+  "meta": {
+   "pivot_time": "2024-01-24T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T20:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50960.08,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-24T20:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50760.04,
+  "meta": {
+   "pivot_time": "2024-01-24T20:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T21:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51103.63,
+  "meta": {
+   "pivot_time": "2024-01-24T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T22:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51103.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-25T01:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51655.33,
+  "meta": {
+   "pivot_time": "2024-01-25T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T03:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51142.41,
+  "meta": {
+   "pivot_time": "2024-01-25T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T03:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 51142.41,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-25T04:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51385.69,
+  "meta": {
+   "pivot_time": "2024-01-25T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T05:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50758.59,
+  "meta": {
+   "pivot_time": "2024-01-25T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T07:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50751.89,
+  "meta": {
+   "pivot_time": "2024-01-25T06:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T08:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51253.3,
+  "meta": {
+   "pivot_time": "2024-01-25T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T09:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 51253.3,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-25T10:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51013.44,
+  "meta": {
+   "pivot_time": "2024-01-25T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T11:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51555.95,
+  "meta": {
+   "pivot_time": "2024-01-25T10:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T12:30:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 51013.44,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-25T15:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50473.28,
+  "meta": {
+   "pivot_time": "2024-01-25T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T16:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50882.32,
+  "meta": {
+   "pivot_time": "2024-01-25T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T16:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50473.28,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-25T17:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50340.91,
+  "meta": {
+   "pivot_time": "2024-01-25T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50611.9,
+  "meta": {
+   "pivot_time": "2024-01-25T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T19:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50264.72,
+  "meta": {
+   "pivot_time": "2024-01-25T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T21:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50553.5,
+  "meta": {
+   "pivot_time": "2024-01-25T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T21:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50264.72,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-25T22:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50044.58,
+  "meta": {
+   "pivot_time": "2024-01-25T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50385.79,
+  "meta": {
+   "pivot_time": "2024-01-25T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T23:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50044.58,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T01:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49537.23,
+  "meta": {
+   "pivot_time": "2024-01-26T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T03:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49833.13,
+  "meta": {
+   "pivot_time": "2024-01-26T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T04:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49537.23,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T05:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49624.9,
+  "meta": {
+   "pivot_time": "2024-01-26T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T06:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49041.32,
+  "meta": {
+   "pivot_time": "2024-01-26T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T07:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48965.45,
+  "meta": {
+   "pivot_time": "2024-01-26T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T08:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49319.78,
+  "meta": {
+   "pivot_time": "2024-01-26T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T09:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48965.45,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T09:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49226.9,
+  "meta": {
+   "pivot_time": "2024-01-26T08:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T10:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48740.89,
+  "meta": {
+   "pivot_time": "2024-01-26T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T11:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48861.34,
+  "meta": {
+   "pivot_time": "2024-01-26T10:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T11:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49262.44,
+  "meta": {
+   "pivot_time": "2024-01-26T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T13:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48861.28,
+  "meta": {
+   "pivot_time": "2024-01-26T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T14:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49211.54,
+  "meta": {
+   "pivot_time": "2024-01-26T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T14:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48861.28,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T15:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48786.09,
+  "meta": {
+   "pivot_time": "2024-01-26T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T15:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48786.09,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T17:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48839.08,
+  "meta": {
+   "pivot_time": "2024-01-26T16:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T17:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48542.04,
+  "meta": {
+   "pivot_time": "2024-01-26T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48832.76,
+  "meta": {
+   "pivot_time": "2024-01-26T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T19:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48832.76,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T20:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49084.75,
+  "meta": {
+   "pivot_time": "2024-01-26T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T22:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48542.04,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-26T23:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48345.8,
+  "meta": {
+   "pivot_time": "2024-01-26T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48857.39,
+  "meta": {
+   "pivot_time": "2024-01-27T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T02:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48536.96,
+  "meta": {
+   "pivot_time": "2024-01-27T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T03:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48816.88,
+  "meta": {
+   "pivot_time": "2024-01-27T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T04:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48631.03,
+  "meta": {
+   "pivot_time": "2024-01-27T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48900.05,
+  "meta": {
+   "pivot_time": "2024-01-27T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T06:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48631.03,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-27T06:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48858.17,
+  "meta": {
+   "pivot_time": "2024-01-27T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T08:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48323.99,
+  "meta": {
+   "pivot_time": "2024-01-27T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T09:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48858.17,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-27T11:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49251.73,
+  "meta": {
+   "pivot_time": "2024-01-27T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T11:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49251.73,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-27T11:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48976.87,
+  "meta": {
+   "pivot_time": "2024-01-27T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T12:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49357.6,
+  "meta": {
+   "pivot_time": "2024-01-27T11:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T13:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49191.26,
+  "meta": {
+   "pivot_time": "2024-01-27T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T13:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49357.6,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-27T15:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49702.51,
+  "meta": {
+   "pivot_time": "2024-01-27T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T16:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49191.26,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-27T19:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48622.1,
+  "meta": {
+   "pivot_time": "2024-01-27T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T19:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48622.1,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-27T20:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48798.79,
+  "meta": {
+   "pivot_time": "2024-01-27T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T22:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47922.22,
+  "meta": {
+   "pivot_time": "2024-01-27T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48185.36,
+  "meta": {
+   "pivot_time": "2024-01-27T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T00:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47922.22,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-28T01:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47617.84,
+  "meta": {
+   "pivot_time": "2024-01-28T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T02:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47617.84,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-28T03:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47491.68,
+  "meta": {
+   "pivot_time": "2024-01-28T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T03:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47809.47,
+  "meta": {
+   "pivot_time": "2024-01-28T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T05:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47826.63,
+  "meta": {
+   "pivot_time": "2024-01-28T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T06:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47408.38,
+  "meta": {
+   "pivot_time": "2024-01-28T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T06:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47826.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-28T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48531.68,
+  "meta": {
+   "pivot_time": "2024-01-28T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T10:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48453.17,
+  "meta": {
+   "pivot_time": "2024-01-28T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T10:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48196.58,
+  "meta": {
+   "pivot_time": "2024-01-28T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T11:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48453.17,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-28T13:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48818.88,
+  "meta": {
+   "pivot_time": "2024-01-28T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T14:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48613.63,
+  "meta": {
+   "pivot_time": "2024-01-28T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T14:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48826.57,
+  "meta": {
+   "pivot_time": "2024-01-28T13:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T15:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48613.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-28T16:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48308.76,
+  "meta": {
+   "pivot_time": "2024-01-28T15:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48804.8,
+  "meta": {
+   "pivot_time": "2024-01-28T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T19:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48308.76,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-28T22:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48200.31,
+  "meta": {
+   "pivot_time": "2024-01-28T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T23:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47801.74,
+  "meta": {
+   "pivot_time": "2024-01-28T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T00:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47801.74,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-29T05:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46934.91,
+  "meta": {
+   "pivot_time": "2024-01-29T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T05:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46602.24,
+  "meta": {
+   "pivot_time": "2024-01-29T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T06:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46926.53,
+  "meta": {
+   "pivot_time": "2024-01-29T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T06:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46616.78,
+  "meta": {
+   "pivot_time": "2024-01-29T06:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46826.52,
+  "meta": {
+   "pivot_time": "2024-01-29T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T08:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 46616.78,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-29T09:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46693.93,
+  "meta": {
+   "pivot_time": "2024-01-29T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T10:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46044.5,
+  "meta": {
+   "pivot_time": "2024-01-29T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T12:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46332.24,
+  "meta": {
+   "pivot_time": "2024-01-29T12:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T13:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 46332.24,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-29T13:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46602.04,
+  "meta": {
+   "pivot_time": "2024-01-29T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T15:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46356.26,
+  "meta": {
+   "pivot_time": "2024-01-29T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T15:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45991.82,
+  "meta": {
+   "pivot_time": "2024-01-29T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T16:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45986.47,
+  "meta": {
+   "pivot_time": "2024-01-29T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T17:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46387.16,
+  "meta": {
+   "pivot_time": "2024-01-29T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46411.99,
+  "meta": {
+   "pivot_time": "2024-01-29T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T19:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 46411.99,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-29T22:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46806.93,
+  "meta": {
+   "pivot_time": "2024-01-29T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T22:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46491.2,
+  "meta": {
+   "pivot_time": "2024-01-29T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T22:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 46806.93,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-29T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46975.64,
+  "meta": {
+   "pivot_time": "2024-01-29T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T00:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 46975.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-30T00:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46794.38,
+  "meta": {
+   "pivot_time": "2024-01-29T23:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T02:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47480.84,
+  "meta": {
+   "pivot_time": "2024-01-30T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47197.51,
+  "meta": {
+   "pivot_time": "2024-01-30T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T03:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 47480.84,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-30T05:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48033.98,
+  "meta": {
+   "pivot_time": "2024-01-30T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T06:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48033.98,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-30T08:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48620.44,
+  "meta": {
+   "pivot_time": "2024-01-30T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48640.21,
+  "meta": {
+   "pivot_time": "2024-01-30T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T10:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48640.21,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-30T10:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48420.24,
+  "meta": {
+   "pivot_time": "2024-01-30T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49060.97,
+  "meta": {
+   "pivot_time": "2024-01-30T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T17:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49646.86,
+  "meta": {
+   "pivot_time": "2024-01-30T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T18:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49060.97,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-30T20:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48230.23,
+  "meta": {
+   "pivot_time": "2024-01-30T20:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T22:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48231.49,
+  "meta": {
+   "pivot_time": "2024-01-30T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T23:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48231.49,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-30T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48526.46,
+  "meta": {
+   "pivot_time": "2024-01-30T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T04:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46680.03,
+  "meta": {
+   "pivot_time": "2024-01-31T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47511.52,
+  "meta": {
+   "pivot_time": "2024-01-31T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T08:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47304.33,
+  "meta": {
+   "pivot_time": "2024-01-31T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T08:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47511.52,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T11:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47958.67,
+  "meta": {
+   "pivot_time": "2024-01-31T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T11:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47658.53,
+  "meta": {
+   "pivot_time": "2024-01-31T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T12:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 47958.67,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T13:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48106.12,
+  "meta": {
+   "pivot_time": "2024-01-31T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47775.31,
+  "meta": {
+   "pivot_time": "2024-01-31T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T14:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48101.98,
+  "meta": {
+   "pivot_time": "2024-01-31T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T14:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48101.98,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T16:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48293.65,
+  "meta": {
+   "pivot_time": "2024-01-31T16:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T17:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48030.05,
+  "meta": {
+   "pivot_time": "2024-01-31T16:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T17:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48293.65,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T18:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48570.99,
+  "meta": {
+   "pivot_time": "2024-01-31T17:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T19:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48570.99,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T20:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48934.02,
+  "meta": {
+   "pivot_time": "2024-01-31T19:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T21:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48934.02,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T21:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49051.1,
+  "meta": {
+   "pivot_time": "2024-01-31T21:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T22:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48763.13,
+  "meta": {
+   "pivot_time": "2024-01-31T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T22:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49051.1,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-01-31T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49212.92,
+  "meta": {
+   "pivot_time": "2024-01-31T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T00:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49212.92,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-01T00:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48948.49,
+  "meta": {
+   "pivot_time": "2024-02-01T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T01:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49338.04,
+  "meta": {
+   "pivot_time": "2024-02-01T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T02:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49338.04,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-01T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49168.58,
+  "meta": {
+   "pivot_time": "2024-02-01T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50815.72,
+  "meta": {
+   "pivot_time": "2024-02-01T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T08:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50815.72,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-01T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50998.97,
+  "meta": {
+   "pivot_time": "2024-02-01T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T10:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50478.31,
+  "meta": {
+   "pivot_time": "2024-02-01T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T12:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50595.46,
+  "meta": {
+   "pivot_time": "2024-02-01T11:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T12:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50964.66,
+  "meta": {
+   "pivot_time": "2024-02-01T12:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T13:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 50595.46,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-01T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50373.97,
+  "meta": {
+   "pivot_time": "2024-02-01T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T15:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50747.74,
+  "meta": {
+   "pivot_time": "2024-02-01T14:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T16:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50303.05,
+  "meta": {
+   "pivot_time": "2024-02-01T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T17:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50303.05,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-01T18:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50399.39,
+  "meta": {
+   "pivot_time": "2024-02-01T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T18:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50158.5,
+  "meta": {
+   "pivot_time": "2024-02-01T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T19:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50158.5,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-01T19:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50326.34,
+  "meta": {
+   "pivot_time": "2024-02-01T18:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T23:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49643.0,
+  "meta": {
+   "pivot_time": "2024-02-01T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T02:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48305.94,
+  "meta": {
+   "pivot_time": "2024-02-02T02:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T03:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48305.94,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-02T07:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47414.81,
+  "meta": {
+   "pivot_time": "2024-02-02T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T09:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47804.41,
+  "meta": {
+   "pivot_time": "2024-02-02T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T10:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47556.87,
+  "meta": {
+   "pivot_time": "2024-02-02T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T10:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47804.41,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-02T11:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47889.19,
+  "meta": {
+   "pivot_time": "2024-02-02T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T11:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 47556.87,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-02T12:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47461.61,
+  "meta": {
+   "pivot_time": "2024-02-02T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T13:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47889.19,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-02T14:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48026.31,
+  "meta": {
+   "pivot_time": "2024-02-02T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T15:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48026.31,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-02T17:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48472.08,
+  "meta": {
+   "pivot_time": "2024-02-02T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T18:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48118.4,
+  "meta": {
+   "pivot_time": "2024-02-02T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48375.12,
+  "meta": {
+   "pivot_time": "2024-02-02T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T20:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48066.8,
+  "meta": {
+   "pivot_time": "2024-02-02T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T21:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48274.61,
+  "meta": {
+   "pivot_time": "2024-02-02T20:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T21:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48066.8,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-02T22:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48265.18,
+  "meta": {
+   "pivot_time": "2024-02-02T21:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47883.44,
+  "meta": {
+   "pivot_time": "2024-02-02T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T00:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48356.65,
+  "meta": {
+   "pivot_time": "2024-02-03T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47916.28,
+  "meta": {
+   "pivot_time": "2024-02-03T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T03:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48356.65,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T04:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48617.75,
+  "meta": {
+   "pivot_time": "2024-02-03T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T04:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48617.75,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T05:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48371.83,
+  "meta": {
+   "pivot_time": "2024-02-03T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T05:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48781.35,
+  "meta": {
+   "pivot_time": "2024-02-03T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T06:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48381.55,
+  "meta": {
+   "pivot_time": "2024-02-03T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48648.57,
+  "meta": {
+   "pivot_time": "2024-02-03T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T08:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48381.55,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T09:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48272.81,
+  "meta": {
+   "pivot_time": "2024-02-03T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T09:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48648.57,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48741.58,
+  "meta": {
+   "pivot_time": "2024-02-03T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T11:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48265.06,
+  "meta": {
+   "pivot_time": "2024-02-03T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T13:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48595.18,
+  "meta": {
+   "pivot_time": "2024-02-03T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48234.23,
+  "meta": {
+   "pivot_time": "2024-02-03T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T14:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48571.35,
+  "meta": {
+   "pivot_time": "2024-02-03T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T15:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48571.35,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T15:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48232.17,
+  "meta": {
+   "pivot_time": "2024-02-03T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49023.9,
+  "meta": {
+   "pivot_time": "2024-02-03T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T17:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48723.09,
+  "meta": {
+   "pivot_time": "2024-02-03T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49113.93,
+  "meta": {
+   "pivot_time": "2024-02-03T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T18:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48677.77,
+  "meta": {
+   "pivot_time": "2024-02-03T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T19:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49113.93,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T20:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49305.88,
+  "meta": {
+   "pivot_time": "2024-02-03T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T21:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49310.95,
+  "meta": {
+   "pivot_time": "2024-02-03T20:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T21:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49078.66,
+  "meta": {
+   "pivot_time": "2024-02-03T21:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T21:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49310.95,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-03T23:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49618.41,
+  "meta": {
+   "pivot_time": "2024-02-03T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T00:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49297.49,
+  "meta": {
+   "pivot_time": "2024-02-03T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T01:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49688.16,
+  "meta": {
+   "pivot_time": "2024-02-04T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T02:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49297.49,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-04T03:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49121.16,
+  "meta": {
+   "pivot_time": "2024-02-04T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T04:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49121.16,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-04T04:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49376.95,
+  "meta": {
+   "pivot_time": "2024-02-04T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T06:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48683.22,
+  "meta": {
+   "pivot_time": "2024-02-04T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T08:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49308.23,
+  "meta": {
+   "pivot_time": "2024-02-04T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T10:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48829.76,
+  "meta": {
+   "pivot_time": "2024-02-04T10:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49057.2,
+  "meta": {
+   "pivot_time": "2024-02-04T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T11:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48820.1,
+  "meta": {
+   "pivot_time": "2024-02-04T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T13:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49121.51,
+  "meta": {
+   "pivot_time": "2024-02-04T12:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T14:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48820.1,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-04T15:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48688.97,
+  "meta": {
+   "pivot_time": "2024-02-04T14:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T17:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 49121.51,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-04T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48865.98,
+  "meta": {
+   "pivot_time": "2024-02-04T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T19:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49426.34,
+  "meta": {
+   "pivot_time": "2024-02-04T18:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T20:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49458.32,
+  "meta": {
+   "pivot_time": "2024-02-04T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T20:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49094.37,
+  "meta": {
+   "pivot_time": "2024-02-04T20:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49076.31,
+  "meta": {
+   "pivot_time": "2024-02-04T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T23:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49458.32,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-05T01:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49362.89,
+  "meta": {
+   "pivot_time": "2024-02-05T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T03:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50021.19,
+  "meta": {
+   "pivot_time": "2024-02-05T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T05:30:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49362.89,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-05T06:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49644.57,
+  "meta": {
+   "pivot_time": "2024-02-05T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T08:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48971.09,
+  "meta": {
+   "pivot_time": "2024-02-05T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49531.84,
+  "meta": {
+   "pivot_time": "2024-02-05T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T10:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49202.95,
+  "meta": {
+   "pivot_time": "2024-02-05T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T11:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49202.95,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-05T11:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49402.07,
+  "meta": {
+   "pivot_time": "2024-02-05T10:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T14:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49200.77,
+  "meta": {
+   "pivot_time": "2024-02-05T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T14:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48858.57,
+  "meta": {
+   "pivot_time": "2024-02-05T13:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T15:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49227.3,
+  "meta": {
+   "pivot_time": "2024-02-05T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T16:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48831.85,
+  "meta": {
+   "pivot_time": "2024-02-05T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T16:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48831.85,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-05T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49072.52,
+  "meta": {
+   "pivot_time": "2024-02-05T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48681.88,
+  "meta": {
+   "pivot_time": "2024-02-05T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49094.29,
+  "meta": {
+   "pivot_time": "2024-02-05T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48689.43,
+  "meta": {
+   "pivot_time": "2024-02-05T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T21:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48933.08,
+  "meta": {
+   "pivot_time": "2024-02-05T21:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T22:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48655.49,
+  "meta": {
+   "pivot_time": "2024-02-05T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T22:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48655.49,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-05T23:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48912.3,
+  "meta": {
+   "pivot_time": "2024-02-05T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T00:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48050.94,
+  "meta": {
+   "pivot_time": "2024-02-05T23:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T00:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48050.94,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-06T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47693.73,
+  "meta": {
+   "pivot_time": "2024-02-06T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T04:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48174.86,
+  "meta": {
+   "pivot_time": "2024-02-06T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T04:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47693.73,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-06T06:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47646.34,
+  "meta": {
+   "pivot_time": "2024-02-06T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T08:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47417.41,
+  "meta": {
+   "pivot_time": "2024-02-06T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T09:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46935.92,
+  "meta": {
+   "pivot_time": "2024-02-06T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47270.82,
+  "meta": {
+   "pivot_time": "2024-02-06T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T10:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47007.37,
+  "meta": {
+   "pivot_time": "2024-02-06T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T10:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47007.37,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-06T13:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46733.62,
+  "meta": {
+   "pivot_time": "2024-02-06T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T14:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 46730.24,
+  "meta": {
+   "pivot_time": "2024-02-06T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T14:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47270.82,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-06T19:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48411.22,
+  "meta": {
+   "pivot_time": "2024-02-06T18:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48411.22,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-06T23:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49233.83,
+  "meta": {
+   "pivot_time": "2024-02-06T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T00:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48860.19,
+  "meta": {
+   "pivot_time": "2024-02-06T23:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T00:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49120.79,
+  "meta": {
+   "pivot_time": "2024-02-06T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T00:30:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48860.19,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-07T02:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49004.07,
+  "meta": {
+   "pivot_time": "2024-02-07T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T04:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48431.42,
+  "meta": {
+   "pivot_time": "2024-02-07T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T06:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48498.99,
+  "meta": {
+   "pivot_time": "2024-02-07T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T07:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48966.7,
+  "meta": {
+   "pivot_time": "2024-02-07T06:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T07:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48676.59,
+  "meta": {
+   "pivot_time": "2024-02-07T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T08:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48966.7,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-07T09:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49060.92,
+  "meta": {
+   "pivot_time": "2024-02-07T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T09:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49060.92,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-07T11:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48966.6,
+  "meta": {
+   "pivot_time": "2024-02-07T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T12:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49386.2,
+  "meta": {
+   "pivot_time": "2024-02-07T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T13:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49386.2,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-07T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49146.4,
+  "meta": {
+   "pivot_time": "2024-02-07T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T16:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49751.09,
+  "meta": {
+   "pivot_time": "2024-02-07T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T17:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49776.2,
+  "meta": {
+   "pivot_time": "2024-02-07T16:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49509.24,
+  "meta": {
+   "pivot_time": "2024-02-07T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T18:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49509.24,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-07T20:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49676.2,
+  "meta": {
+   "pivot_time": "2024-02-07T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48994.89,
+  "meta": {
+   "pivot_time": "2024-02-07T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T21:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49299.46,
+  "meta": {
+   "pivot_time": "2024-02-07T21:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T23:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49010.45,
+  "meta": {
+   "pivot_time": "2024-02-07T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49342.28,
+  "meta": {
+   "pivot_time": "2024-02-07T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T00:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49378.21,
+  "meta": {
+   "pivot_time": "2024-02-07T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T01:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49048.74,
+  "meta": {
+   "pivot_time": "2024-02-08T00:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T02:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49447.15,
+  "meta": {
+   "pivot_time": "2024-02-08T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49091.82,
+  "meta": {
+   "pivot_time": "2024-02-08T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T03:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49370.15,
+  "meta": {
+   "pivot_time": "2024-02-08T02:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T04:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49042.15,
+  "meta": {
+   "pivot_time": "2024-02-08T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T04:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49324.78,
+  "meta": {
+   "pivot_time": "2024-02-08T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T05:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49042.15,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-08T06:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48803.81,
+  "meta": {
+   "pivot_time": "2024-02-08T05:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T08:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 49324.78,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-08T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49487.61,
+  "meta": {
+   "pivot_time": "2024-02-08T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49266.58,
+  "meta": {
+   "pivot_time": "2024-02-08T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T12:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48803.81,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-08T13:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48745.79,
+  "meta": {
+   "pivot_time": "2024-02-08T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T14:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48970.14,
+  "meta": {
+   "pivot_time": "2024-02-08T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T14:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48745.79,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-08T15:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48430.69,
+  "meta": {
+   "pivot_time": "2024-02-08T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T17:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48430.69,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-08T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48333.4,
+  "meta": {
+   "pivot_time": "2024-02-08T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48656.28,
+  "meta": {
+   "pivot_time": "2024-02-08T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T18:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48333.4,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-08T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47998.52,
+  "meta": {
+   "pivot_time": "2024-02-08T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T22:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48370.08,
+  "meta": {
+   "pivot_time": "2024-02-08T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T00:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48286.58,
+  "meta": {
+   "pivot_time": "2024-02-08T23:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T00:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47994.72,
+  "meta": {
+   "pivot_time": "2024-02-08T23:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T01:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48286.58,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T01:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48083.19,
+  "meta": {
+   "pivot_time": "2024-02-09T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T01:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48367.32,
+  "meta": {
+   "pivot_time": "2024-02-09T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48033.5,
+  "meta": {
+   "pivot_time": "2024-02-09T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T03:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48033.5,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T03:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48271.06,
+  "meta": {
+   "pivot_time": "2024-02-09T02:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T04:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48164.64,
+  "meta": {
+   "pivot_time": "2024-02-09T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T04:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47830.63,
+  "meta": {
+   "pivot_time": "2024-02-09T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T05:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47754.02,
+  "meta": {
+   "pivot_time": "2024-02-09T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T07:00:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48164.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T08:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48307.98,
+  "meta": {
+   "pivot_time": "2024-02-09T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T09:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48292.97,
+  "meta": {
+   "pivot_time": "2024-02-09T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T11:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47857.19,
+  "meta": {
+   "pivot_time": "2024-02-09T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48139.8,
+  "meta": {
+   "pivot_time": "2024-02-09T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T12:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48139.8,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T12:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47832.26,
+  "meta": {
+   "pivot_time": "2024-02-09T11:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T13:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48343.63,
+  "meta": {
+   "pivot_time": "2024-02-09T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T13:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48343.63,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T14:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48162.78,
+  "meta": {
+   "pivot_time": "2024-02-09T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T14:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48445.02,
+  "meta": {
+   "pivot_time": "2024-02-09T13:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T14:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48445.02,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T15:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48557.75,
+  "meta": {
+   "pivot_time": "2024-02-09T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T15:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48282.58,
+  "meta": {
+   "pivot_time": "2024-02-09T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T17:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48288.52,
+  "meta": {
+   "pivot_time": "2024-02-09T16:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T17:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48464.88,
+  "meta": {
+   "pivot_time": "2024-02-09T16:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T17:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 48288.52,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48108.46,
+  "meta": {
+   "pivot_time": "2024-02-09T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T19:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48464.88,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T20:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48582.3,
+  "meta": {
+   "pivot_time": "2024-02-09T19:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T20:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48582.3,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-09T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48418.35,
+  "meta": {
+   "pivot_time": "2024-02-09T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T22:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48812.07,
+  "meta": {
+   "pivot_time": "2024-02-09T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T22:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48549.13,
+  "meta": {
+   "pivot_time": "2024-02-09T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T23:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48862.78,
+  "meta": {
+   "pivot_time": "2024-02-09T22:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T23:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48862.78,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-10T00:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48980.17,
+  "meta": {
+   "pivot_time": "2024-02-09T23:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T01:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49069.64,
+  "meta": {
+   "pivot_time": "2024-02-10T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T02:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48516.49,
+  "meta": {
+   "pivot_time": "2024-02-10T01:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T04:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49069.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-10T11:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50016.21,
+  "meta": {
+   "pivot_time": "2024-02-10T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T13:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 50630.6,
+  "meta": {
+   "pivot_time": "2024-02-10T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T13:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 50630.6,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-10T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50375.36,
+  "meta": {
+   "pivot_time": "2024-02-10T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T15:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51093.31,
+  "meta": {
+   "pivot_time": "2024-02-10T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T16:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51093.31,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-10T17:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51712.9,
+  "meta": {
+   "pivot_time": "2024-02-10T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T19:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 51712.9,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-10T20:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52061.72,
+  "meta": {
+   "pivot_time": "2024-02-10T19:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T20:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 52061.72,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T00:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53047.87,
+  "meta": {
+   "pivot_time": "2024-02-11T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T01:45:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 53047.87,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T02:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52761.12,
+  "meta": {
+   "pivot_time": "2024-02-11T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T04:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53445.39,
+  "meta": {
+   "pivot_time": "2024-02-11T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T04:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53077.07,
+  "meta": {
+   "pivot_time": "2024-02-11T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53452.68,
+  "meta": {
+   "pivot_time": "2024-02-11T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T06:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53042.06,
+  "meta": {
+   "pivot_time": "2024-02-11T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T07:30:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 53452.68,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T07:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53061.18,
+  "meta": {
+   "pivot_time": "2024-02-11T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T08:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53571.16,
+  "meta": {
+   "pivot_time": "2024-02-11T07:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T09:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53234.62,
+  "meta": {
+   "pivot_time": "2024-02-11T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T09:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 53571.16,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T10:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53717.31,
+  "meta": {
+   "pivot_time": "2024-02-11T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T11:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53428.07,
+  "meta": {
+   "pivot_time": "2024-02-11T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T11:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53700.42,
+  "meta": {
+   "pivot_time": "2024-02-11T11:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T13:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 53428.07,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53350.46,
+  "meta": {
+   "pivot_time": "2024-02-11T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T14:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 53700.42,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T15:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53589.99,
+  "meta": {
+   "pivot_time": "2024-02-11T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T16:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53844.76,
+  "meta": {
+   "pivot_time": "2024-02-11T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T16:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 53844.76,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-11T16:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53587.36,
+  "meta": {
+   "pivot_time": "2024-02-11T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 53744.18,
+  "meta": {
+   "pivot_time": "2024-02-11T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T01:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 55286.25,
+  "meta": {
+   "pivot_time": "2024-02-12T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T02:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 55012.41,
+  "meta": {
+   "pivot_time": "2024-02-12T01:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T02:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 55286.25,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-12T04:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 55291.98,
+  "meta": {
+   "pivot_time": "2024-02-12T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 55854.11,
+  "meta": {
+   "pivot_time": "2024-02-12T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T05:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 55291.98,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-12T07:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 54907.29,
+  "meta": {
+   "pivot_time": "2024-02-12T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 55245.62,
+  "meta": {
+   "pivot_time": "2024-02-12T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T07:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 54907.29,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-12T10:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 54257.39,
+  "meta": {
+   "pivot_time": "2024-02-12T09:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T11:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 54257.39,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-12T11:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 54455.53,
+  "meta": {
+   "pivot_time": "2024-02-12T10:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T14:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53721.37,
+  "meta": {
+   "pivot_time": "2024-02-12T13:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52608.33,
+  "meta": {
+   "pivot_time": "2024-02-12T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T19:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52934.53,
+  "meta": {
+   "pivot_time": "2024-02-12T18:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T19:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 52608.33,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-12T19:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52546.26,
+  "meta": {
+   "pivot_time": "2024-02-12T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T20:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 52934.53,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-12T23:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 53151.25,
+  "meta": {
+   "pivot_time": "2024-02-12T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T00:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 52546.26,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T02:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52153.38,
+  "meta": {
+   "pivot_time": "2024-02-13T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T03:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52470.19,
+  "meta": {
+   "pivot_time": "2024-02-13T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T04:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 52470.19,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T04:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52143.47,
+  "meta": {
+   "pivot_time": "2024-02-13T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T06:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52873.32,
+  "meta": {
+   "pivot_time": "2024-02-13T05:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T07:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 52474.76,
+  "meta": {
+   "pivot_time": "2024-02-13T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T07:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52703.02,
+  "meta": {
+   "pivot_time": "2024-02-13T07:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T07:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 52474.76,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T09:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51903.95,
+  "meta": {
+   "pivot_time": "2024-02-13T08:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 52260.06,
+  "meta": {
+   "pivot_time": "2024-02-13T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T10:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 51903.95,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T12:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 51311.57,
+  "meta": {
+   "pivot_time": "2024-02-13T11:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T13:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 51311.57,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T13:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 51533.42,
+  "meta": {
+   "pivot_time": "2024-02-13T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T16:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 50360.12,
+  "meta": {
+   "pivot_time": "2024-02-13T15:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T16:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 50360.12,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T20:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49361.93,
+  "meta": {
+   "pivot_time": "2024-02-13T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T20:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49088.21,
+  "meta": {
+   "pivot_time": "2024-02-13T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T20:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 49088.21,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-13T22:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49035.92,
+  "meta": {
+   "pivot_time": "2024-02-13T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T23:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48553.43,
+  "meta": {
+   "pivot_time": "2024-02-13T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T00:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48553.43,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-14T03:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47802.74,
+  "meta": {
+   "pivot_time": "2024-02-14T02:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T04:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47802.74,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-14T04:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48080.17,
+  "meta": {
+   "pivot_time": "2024-02-14T03:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T05:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47386.71,
+  "meta": {
+   "pivot_time": "2024-02-14T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T06:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47386.71,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-14T07:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47136.03,
+  "meta": {
+   "pivot_time": "2024-02-14T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T08:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47738.93,
+  "meta": {
+   "pivot_time": "2024-02-14T07:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T09:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47436.81,
+  "meta": {
+   "pivot_time": "2024-02-14T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T09:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47738.93,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-14T10:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47808.67,
+  "meta": {
+   "pivot_time": "2024-02-14T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T11:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 47436.81,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-14T13:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47125.63,
+  "meta": {
+   "pivot_time": "2024-02-14T12:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T15:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47808.96,
+  "meta": {
+   "pivot_time": "2024-02-14T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T16:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47655.28,
+  "meta": {
+   "pivot_time": "2024-02-14T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47301.02,
+  "meta": {
+   "pivot_time": "2024-02-14T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47535.04,
+  "meta": {
+   "pivot_time": "2024-02-14T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T19:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47256.75,
+  "meta": {
+   "pivot_time": "2024-02-14T18:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T19:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47535.04,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-14T22:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47862.45,
+  "meta": {
+   "pivot_time": "2024-02-14T21:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T00:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48814.85,
+  "meta": {
+   "pivot_time": "2024-02-15T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T01:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 48814.85,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-15T05:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49486.38,
+  "meta": {
+   "pivot_time": "2024-02-15T04:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T05:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 49486.38,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-15T05:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 49192.32,
+  "meta": {
+   "pivot_time": "2024-02-15T04:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T08:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 49926.11,
+  "meta": {
+   "pivot_time": "2024-02-15T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T10:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 49192.32,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-15T15:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 48307.29,
+  "meta": {
+   "pivot_time": "2024-02-15T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T16:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48531.79,
+  "meta": {
+   "pivot_time": "2024-02-15T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T16:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 48307.29,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-15T18:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47964.92,
+  "meta": {
+   "pivot_time": "2024-02-15T17:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T19:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48327.75,
+  "meta": {
+   "pivot_time": "2024-02-15T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T21:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47886.76,
+  "meta": {
+   "pivot_time": "2024-02-15T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T22:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47838.83,
+  "meta": {
+   "pivot_time": "2024-02-15T21:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T23:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48085.76,
+  "meta": {
+   "pivot_time": "2024-02-15T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T23:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47818.64,
+  "meta": {
+   "pivot_time": "2024-02-15T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T00:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 48085.76,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-16T01:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48126.37,
+  "meta": {
+   "pivot_time": "2024-02-16T00:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T01:45:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 47818.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-16T03:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47616.48,
+  "meta": {
+   "pivot_time": "2024-02-16T02:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T04:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47614.52,
+  "meta": {
+   "pivot_time": "2024-02-16T03:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T05:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 47614.52,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-16T05:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47774.08,
+  "meta": {
+   "pivot_time": "2024-02-16T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T06:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47492.46,
+  "meta": {
+   "pivot_time": "2024-02-16T05:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T07:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 47489.2,
+  "meta": {
+   "pivot_time": "2024-02-16T06:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T07:45:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 47774.08,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-16T10:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 48196.94,
+  "meta": {
+   "pivot_time": "2024-02-16T09:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T12:15:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 47489.2,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-16T15:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 47251.65,
+  "meta": {
+   "pivot_time": "2024-02-16T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T20:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 46483.2,
+  "meta": {
+   "pivot_time": "2024-02-16T19:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T01:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45722.57,
+  "meta": {
+   "pivot_time": "2024-02-17T00:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T02:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45551.66,
+  "meta": {
+   "pivot_time": "2024-02-17T01:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T03:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 45117.95,
+  "meta": {
+   "pivot_time": "2024-02-17T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T04:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45355.69,
+  "meta": {
+   "pivot_time": "2024-02-17T03:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T05:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 45117.95,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-17T05:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 45364.07,
+  "meta": {
+   "pivot_time": "2024-02-17T04:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T08:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 44458.1,
+  "meta": {
+   "pivot_time": "2024-02-17T08:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T09:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44794.93,
+  "meta": {
+   "pivot_time": "2024-02-17T08:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T10:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44726.2,
+  "meta": {
+   "pivot_time": "2024-02-17T09:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T10:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 44458.1,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-17T15:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43862.69,
+  "meta": {
+   "pivot_time": "2024-02-17T14:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T16:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44201.04,
+  "meta": {
+   "pivot_time": "2024-02-17T15:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T17:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 43862.69,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-17T18:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43743.58,
+  "meta": {
+   "pivot_time": "2024-02-17T17:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T18:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 43743.58,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-17T18:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 44017.67,
+  "meta": {
+   "pivot_time": "2024-02-17T18:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T19:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 43536.13,
+  "meta": {
+   "pivot_time": "2024-02-17T19:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T20:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 43536.13,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-17T22:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42971.2,
+  "meta": {
+   "pivot_time": "2024-02-17T21:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T22:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 42971.2,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-17T23:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42859.59,
+  "meta": {
+   "pivot_time": "2024-02-17T22:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T00:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 42859.59,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T00:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 43124.61,
+  "meta": {
+   "pivot_time": "2024-02-18T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T04:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41867.32,
+  "meta": {
+   "pivot_time": "2024-02-18T04:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T05:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 41867.32,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T06:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41801.79,
+  "meta": {
+   "pivot_time": "2024-02-18T05:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T07:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 41801.79,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T08:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41973.57,
+  "meta": {
+   "pivot_time": "2024-02-18T07:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T09:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41605.03,
+  "meta": {
+   "pivot_time": "2024-02-18T08:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T09:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41834.17,
+  "meta": {
+   "pivot_time": "2024-02-18T08:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T10:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 41605.03,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T11:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41469.01,
+  "meta": {
+   "pivot_time": "2024-02-18T10:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T11:15:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 41834.17,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T12:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 41558.19,
+  "meta": {
+   "pivot_time": "2024-02-18T11:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T15:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42435.54,
+  "meta": {
+   "pivot_time": "2024-02-18T14:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T15:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42131.13,
+  "meta": {
+   "pivot_time": "2024-02-18T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T16:15:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 42435.54,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T21:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 43257.64,
+  "meta": {
+   "pivot_time": "2024-02-18T20:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T22:00:00+00:00",
+  "kind": "bos",
+  "direction": "bullish",
+  "price": 43257.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-18T23:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 43590.62,
+  "meta": {
+   "pivot_time": "2024-02-18T23:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T03:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42789.37,
+  "meta": {
+   "pivot_time": "2024-02-19T03:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T05:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 42071.75,
+  "meta": {
+   "pivot_time": "2024-02-19T05:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T06:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 42071.75,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-19T06:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 42480.13,
+  "meta": {
+   "pivot_time": "2024-02-19T05:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T13:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41212.82,
+  "meta": {
+   "pivot_time": "2024-02-19T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T14:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40915.66,
+  "meta": {
+   "pivot_time": "2024-02-19T13:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T14:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 40915.66,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-19T14:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 41151.17,
+  "meta": {
+   "pivot_time": "2024-02-19T14:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T15:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40618.34,
+  "meta": {
+   "pivot_time": "2024-02-19T15:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T16:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40854.33,
+  "meta": {
+   "pivot_time": "2024-02-19T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T16:30:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 40618.34,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-19T17:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 40673.55,
+  "meta": {
+   "pivot_time": "2024-02-19T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T19:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 40254.86,
+  "meta": {
+   "pivot_time": "2024-02-19T18:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T20:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 40254.86,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-20T00:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 39375.3,
+  "meta": {
+   "pivot_time": "2024-02-19T23:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T00:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 39684.69,
+  "meta": {
+   "pivot_time": "2024-02-20T00:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T01:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 39375.3,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-20T03:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 39055.06,
+  "meta": {
+   "pivot_time": "2024-02-20T02:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T04:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 39055.06,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-20T13:15:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 37415.7,
+  "meta": {
+   "pivot_time": "2024-02-20T12:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T17:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 38139.47,
+  "meta": {
+   "pivot_time": "2024-02-20T16:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T17:30:00+00:00",
+  "kind": "choch",
+  "direction": "bullish",
+  "price": 38139.47,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-20T17:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 38016.78,
+  "meta": {
+   "pivot_time": "2024-02-20T17:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T21:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 38540.22,
+  "meta": {
+   "pivot_time": "2024-02-20T20:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T01:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 39690.82,
+  "meta": {
+   "pivot_time": "2024-02-21T01:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T06:00:00+00:00",
+  "kind": "choch",
+  "direction": "bearish",
+  "price": 38540.22,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-21T07:00:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 38413.62,
+  "meta": {
+   "pivot_time": "2024-02-21T06:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T07:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 38683.31,
+  "meta": {
+   "pivot_time": "2024-02-21T06:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T07:45:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 38413.62,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-21T08:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 38314.23,
+  "meta": {
+   "pivot_time": "2024-02-21T07:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T09:45:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 38638.86,
+  "meta": {
+   "pivot_time": "2024-02-21T09:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T10:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 38314.23,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-21T13:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 37700.64,
+  "meta": {
+   "pivot_time": "2024-02-21T13:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T15:00:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 37700.64,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-21T16:30:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 37738.99,
+  "meta": {
+   "pivot_time": "2024-02-21T15:45:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T21:00:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 36870.66,
+  "meta": {
+   "pivot_time": "2024-02-21T20:15:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T22:45:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 36485.0,
+  "meta": {
+   "pivot_time": "2024-02-21T22:00:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T23:15:00+00:00",
+  "kind": "swing_high",
+  "direction": "none",
+  "price": 36673.03,
+  "meta": {
+   "pivot_time": "2024-02-21T22:30:00+00:00"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T23:15:00+00:00",
+  "kind": "bos",
+  "direction": "bearish",
+  "price": 36485.0,
+  "meta": {}
+ },
+ {
+  "timestamp": "2024-02-22T01:30:00+00:00",
+  "kind": "swing_low",
+  "direction": "none",
+  "price": 36022.86,
+  "meta": {
+   "pivot_time": "2024-02-22T00:45:00+00:00"
+  }
+ }
+]

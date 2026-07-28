@@ -1,0 +1,3755 @@
+[
+ {
+  "timestamp": "2024-01-01T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 40000.0,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40618.57,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41415.31,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41886.1,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 42048.03,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41413.64,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 40989.72,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-01T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40805.93,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 40357.04,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41073.11,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41665.81,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42178.67,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 42554.81,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 43256.81,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43857.99,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-02T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44126.09,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45043.15,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45187.96,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44530.73,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44327.57,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44207.58,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 43987.4,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43594.66,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-03T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 43309.29,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43038.99,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42778.25,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43804.88,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44078.93,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44477.7,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44883.88,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45028.78,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-04T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45409.3,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45315.77,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45255.06,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45537.06,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45788.2,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45744.38,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46583.95,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46779.06,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-05T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46796.58,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47326.01,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47932.81,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48647.95,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48774.06,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49221.56,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49811.74,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50588.89,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-06T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50807.27,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52005.51,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52237.71,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52241.83,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51398.72,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51029.01,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50303.99,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49863.3,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-07T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49436.44,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50415.21,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50941.64,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51317.4,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51364.95,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51402.37,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51664.38,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51508.32,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-08T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51597.39,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49974.71,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49224.91,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49008.3,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48586.19,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48292.69,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48817.26,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48702.28,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-09T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48833.18,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48525.52,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48676.97,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48698.77,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48866.92,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48625.53,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48703.28,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48923.95,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-10T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48796.72,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49330.23,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49615.41,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49800.1,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49491.7,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49051.83,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48681.79,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48220.92,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-11T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47994.62,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47556.22,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47036.72,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46649.95,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45953.3,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45770.68,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45717.52,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45562.02,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-12T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45760.03,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46018.13,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46165.37,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45817.36,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45808.85,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46041.2,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45656.57,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45111.46,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-13T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44786.94,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44228.68,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 43195.45,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 42481.46,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42034.08,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41894.49,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41309.04,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 40498.11,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-14T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40364.43,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 39861.69,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40345.0,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 40358.05,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40937.45,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41268.31,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41999.42,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 42283.46,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-15T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42517.07,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43064.83,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44086.18,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44543.01,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44623.42,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44902.42,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45070.21,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44930.93,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-16T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44758.43,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44944.64,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45187.15,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45494.26,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45921.64,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46433.51,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46948.73,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47343.16,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-17T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47396.57,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47037.04,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47270.01,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47438.69,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47113.63,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47224.05,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47026.49,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47224.89,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-18T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47908.91,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48930.96,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49240.62,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49205.4,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49147.25,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48922.68,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48983.81,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49418.33,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-19T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49495.02,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50032.43,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50372.52,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50731.83,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50933.32,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51421.16,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51913.63,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52262.98,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-20T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52946.32,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52526.66,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51702.25,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51068.31,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51261.51,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51683.65,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52148.5,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52463.89,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-21T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 53210.84,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52149.31,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51775.44,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50787.75,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50666.87,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50988.55,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51252.16,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51423.13,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-22T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52012.52,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52415.03,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52809.84,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 53515.2,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 53655.89,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52860.78,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52142.33,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52083.35,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-23T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51236.76,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50617.44,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49711.51,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49503.43,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49188.4,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49361.85,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49827.27,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50236.74,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-24T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50776.64,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51509.6,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51123.86,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50819.34,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51298.97,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51139.64,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50538.16,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50413.4,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-25T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50513.8,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49753.78,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49553.53,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49176.1,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48967.9,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48994.85,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48869.64,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48613.44,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-26T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48903.77,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48613.76,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48749.8,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48429.08,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49086.38,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49298.65,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49484.35,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48793.6,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-27T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48564.34,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47950.41,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47692.07,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47951.55,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48357.76,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48505.62,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48630.88,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48647.71,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-28T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48247.75,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47866.13,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46829.31,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46776.04,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46086.79,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46512.5,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46072.0,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46322.45,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-29T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46477.35,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46950.59,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47710.19,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48318.31,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48474.45,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48868.71,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49320.29,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49285.39,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-30T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48505.43,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47933.19,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46793.1,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47406.64,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47825.21,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47861.44,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48133.28,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48409.62,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-01-31T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48766.81,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49015.4,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49796.94,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50655.35,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50639.03,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50891.53,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50554.72,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50292.82,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-01T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49943.74,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49173.98,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48065.89,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47478.04,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47743.11,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47514.67,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47908.67,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48299.78,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-02T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48185.99,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48176.3,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48436.7,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48555.08,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48557.37,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48442.32,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48520.15,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48856.73,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-03T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49127.49,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49396.41,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49200.92,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48987.18,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48943.62,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49045.51,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48911.16,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48910.8,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-04T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49235.08,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49555.17,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49699.03,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49114.56,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49328.24,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49255.17,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49161.78,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48793.11,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-05T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48920.07,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48134.88,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47873.29,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47205.06,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47125.01,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46893.19,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47308.9,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47914.98,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-06T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48346.44,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49071.46,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48577.99,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48732.06,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49094.58,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49290.78,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49614.23,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49607.63,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-07T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49310.09,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49301.42,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49193.51,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49123.62,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49311.98,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48967.78,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48549.09,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48444.12,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-08T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48143.76,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48163.07,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47972.96,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48099.03,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47987.76,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47998.01,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48496.36,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48138.02,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-09T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48482.22,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48903.78,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48912.64,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49453.87,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50109.97,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 50423.79,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50977.92,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51591.77,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-10T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 51808.79,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52933.18,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 53136.04,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 53237.91,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 53475.5,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 53463.86,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 53638.21,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 53961.66,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-11T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 54243.56,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 54988.8,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 55722.44,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 55137.32,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 54310.21,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 53878.18,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 53228.6,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52724.36,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-12T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52815.83,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52649.18,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52187.38,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 52609.0,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 52111.49,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 51371.79,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 50679.46,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49866.4,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-13T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49252.34,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48589.5,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47818.21,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47340.67,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47757.92,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47257.61,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47589.07,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47361.23,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-14T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47653.35,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48700.48,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49319.76,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 49684.59,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 49328.56,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 48894.98,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48428.56,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47991.65,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-15T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48032.61,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47940.81,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47676.3,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47600.47,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 48105.73,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 47801.19,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 47133.7,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 46714.37,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-16T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 46323.61,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 45490.58,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 45195.77,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44743.52,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 44587.61,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 44258.9,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 43993.86,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43823.13,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-17T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 43611.01,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43041.75,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42048.76,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41910.06,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41682.52,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 42005.2,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42342.55,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 42689.92,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-18T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42962.29,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 43457.06,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 42465.15,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41880.03,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 41487.5,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 41214.09,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40733.01,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 40518.02,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-19T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 40305.12,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 39636.79,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 39116.93,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 38508.16,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 37879.88,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 37487.6,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 37907.99,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 38091.7,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-20T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 38658.54,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 39423.02,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T04:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 39287.25,
+  "meta": {
+   "session": "asia"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T07:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 38622.34,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T10:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 38490.62,
+  "meta": {
+   "session": "london"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T12:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 38065.12,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T15:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 37704.6,
+  "meta": {
+   "session": "ny_am"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T17:30:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 37478.42,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-21T20:00:00+00:00",
+  "kind": "session_close",
+  "direction": "none",
+  "price": 36795.19,
+  "meta": {
+   "session": "ny_pm"
+  }
+ },
+ {
+  "timestamp": "2024-02-22T00:00:00+00:00",
+  "kind": "session_open",
+  "direction": "none",
+  "price": 36471.93,
+  "meta": {
+   "session": "asia"
+  }
+ }
+]

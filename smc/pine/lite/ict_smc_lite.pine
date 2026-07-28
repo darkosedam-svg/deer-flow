@@ -1,0 +1,180 @@
+// This Pine Script® code is subject to the terms of the Mozilla Public License 2.0
+// © [your TradingView username]
+//
+// ICT/SMC Lite — Fair Value Gaps, Order Blocks, Market Structure, Kill Zones
+//
+// Educational tool. Not financial advice. Past performance does not guarantee
+// future results.
+//
+// PORT NOTE (do not remove): this script is a line-for-line port of the Python
+// detectors in smc-research (FVGDetector, OrderBlockDetector,
+// StructureDetector, SessionDetector). Any semantic change here must be made
+// in Python first, golden files regenerated, and the parity harness re-run
+// (Plan B M4). Signals are confirmed on bar close only — nothing repaints.
+//@version=6
+indicator("ICT/SMC Lite", overlay = true,
+     max_boxes_count = 500, max_labels_count = 500, max_lines_count = 100)
+
+// ─────────────────────────────── Inputs ───────────────────────────────
+grpFVG = "Fair Value Gaps"
+showFVG        = input.bool(true,  "Show FVGs", group = grpFVG)
+fvgMitFrac     = input.float(0.5,  "Mitigation fill fraction", minval = 0.05, maxval = 1.0, step = 0.05, group = grpFVG,
+     tooltip = "Fraction of the gap that price must fill before the FVG counts as mitigated and is removed.")
+fvgMaxActive   = input.int(40,     "Max FVGs kept on chart", minval = 5, maxval = 100, group = grpFVG,
+     tooltip = "Oldest boxes are deleted first. Keeps the chart fast (performance guardrail).")
+colFVGBull     = input.color(color.new(color.teal, 78),   "Bullish FVG", group = grpFVG)
+colFVGBear     = input.color(color.new(color.maroon, 78), "Bearish FVG", group = grpFVG)
+
+grpOB = "Order Blocks"
+showOB         = input.bool(true, "Show Order Blocks", group = grpOB)
+obDispFactor   = input.float(2.0, "Displacement factor", minval = 1.1, maxval = 5.0, step = 0.1, group = grpOB,
+     tooltip = "A candle body must exceed this multiple of the average body (last 20 bars, current bar excluded) to count as displacement. The last opposing candle before it becomes the order block.")
+obMaxActive    = input.int(20,    "Max OBs kept on chart", minval = 5, maxval = 60, group = grpOB)
+colOBBull      = input.color(color.new(color.blue, 72),   "Bullish OB", group = grpOB)
+colOBBear      = input.color(color.new(color.orange, 72), "Bearish OB", group = grpOB)
+
+grpMS = "Market Structure"
+showMS         = input.bool(true, "Show BOS / CHoCH", group = grpMS)
+swingStrength  = input.int(3, "Swing strength (bars each side)", minval = 2, maxval = 10, group = grpMS,
+     tooltip = "A swing high/low needs this many lower highs / higher lows on both sides. Confirmation happens this many bars after the pivot — labels never repaint.")
+
+grpKZ = "Kill Zones (UTC)"
+showKZ         = input.bool(true, "Show session boxes", group = grpKZ,
+     tooltip = "Session windows are anchored to UTC explicitly, matching the research backtests. Adjust to taste.")
+kzAsia         = input.session("0000-0400", "Asia",       group = grpKZ)
+kzLondon       = input.session("0700-1000", "London",     group = grpKZ)
+kzNYAM         = input.session("1200-1500", "New York AM", group = grpKZ)
+kzNYPM         = input.session("1730-2000", "New York PM", group = grpKZ)
+colKZ          = input.color(color.new(color.gray, 88), "Session shading", group = grpKZ)
+
+// ─────────────────────── FVG detection + mitigation ───────────────────────
+// Bullish: low > high[2]; Bearish: high < low[2]. Created on the bar that
+// completes the 3-candle pattern; mitigated when price fills fvgMitFrac of
+// the zone. Incremental — no loops over full history (performance guardrail).
+var fvgBoxes  = array.new_box()
+var fvgIsBull = array.new_bool()
+
+bullFVG = showFVG and low > high[2]
+bearFVG = showFVG and high < low[2]
+
+// Mitigation pass over active boxes only (bounded by fvgMaxActive).
+if array.size(fvgBoxes) > 0
+    for i = array.size(fvgBoxes) - 1 to 0
+        b = array.get(fvgBoxes, i)
+        isBull = array.get(fvgIsBull, i)
+        top = box.get_top(b)
+        bot = box.get_bottom(b)
+        thr = isBull ? top - fvgMitFrac * (top - bot) : bot + fvgMitFrac * (top - bot)
+        mitigated = isBull ? low <= thr : high >= thr
+        if mitigated
+            box.delete(b)
+            array.remove(fvgBoxes, i)
+            array.remove(fvgIsBull, i)
+        else
+            box.set_right(b, bar_index)
+
+if bullFVG
+    array.push(fvgBoxes, box.new(bar_index - 2, low, bar_index, high[2], border_color = na, bgcolor = colFVGBull))
+    array.push(fvgIsBull, true)
+if bearFVG
+    array.push(fvgBoxes, box.new(bar_index - 2, low[2], bar_index, high, border_color = na, bgcolor = colFVGBear))
+    array.push(fvgIsBull, false)
+
+// Overflow guardrail: delete oldest first.
+if array.size(fvgBoxes) > fvgMaxActive
+    box.delete(array.shift(fvgBoxes))
+    array.shift(fvgIsBull)
+
+// ─────────────────── Order blocks (basic, Lite semantics) ───────────────────
+var obBoxes  = array.new_box()
+var obIsBull = array.new_bool()
+
+body        = math.abs(close - open)
+baseline    = ta.sma(math.abs(close - open), 20)[1]  // prior baseline, current bar excluded
+isDisp      = showOB and not na(baseline) and baseline > 0 and body > obDispFactor * baseline
+dispBull    = isDisp and close > open
+dispBear    = isDisp and close < open
+
+// Mitigation of existing blocks.
+if array.size(obBoxes) > 0
+    for i = array.size(obBoxes) - 1 to 0
+        b = array.get(obBoxes, i)
+        isBull = array.get(obIsBull, i)
+        hit = isBull ? low <= box.get_top(b) : high >= box.get_bottom(b)
+        if hit
+            box.delete(b)
+            array.remove(obBoxes, i)
+            array.remove(obIsBull, i)
+        else
+            box.set_right(b, bar_index)
+
+// Find the last opposing candle within 10 bars before the displacement bar.
+findOpposing(bool wantDown) =>
+    int offset = na
+    for i = 1 to 10
+        if wantDown ? close[i] < open[i] : close[i] > open[i]
+            offset := i
+            break
+    offset
+
+if dispBull
+    off = findOpposing(true)
+    if not na(off)
+        array.push(obBoxes, box.new(bar_index - off, high[off], bar_index, low[off], border_color = na, bgcolor = colOBBull))
+        array.push(obIsBull, true)
+if dispBear
+    off = findOpposing(false)
+    if not na(off)
+        array.push(obBoxes, box.new(bar_index - off, high[off], bar_index, low[off], border_color = na, bgcolor = colOBBear))
+        array.push(obIsBull, false)
+
+if array.size(obBoxes) > obMaxActive
+    box.delete(array.shift(obBoxes))
+    array.shift(obIsBull)
+
+// ─────────────── Market structure: swings → BOS / CHoCH ───────────────
+// ta.pivothigh confirms the swing `swingStrength` bars after the pivot —
+// identical delay to the Python StructureDetector. Breaks fire on close.
+var float lastSwingHigh = na
+var float lastSwingLow  = na
+var bool  highBroken    = false
+var bool  lowBroken     = false
+var int   trendDir      = 0  // 1 bullish, -1 bearish, 0 none
+
+ph = ta.pivothigh(high, swingStrength, swingStrength)
+pl = ta.pivotlow(low, swingStrength, swingStrength)
+if not na(ph)
+    lastSwingHigh := ph
+    highBroken := false
+if not na(pl)
+    lastSwingLow := pl
+    lowBroken := false
+
+bullBreak = showMS and not na(lastSwingHigh) and not highBroken and close > lastSwingHigh
+bearBreak = showMS and not na(lastSwingLow)  and not lowBroken  and close < lastSwingLow
+
+if bullBreak
+    highBroken := true
+    isChoch = trendDir == -1
+    trendDir := 1
+    label.new(bar_index, lastSwingHigh, isChoch ? "CHoCH" : "BOS",
+         style = label.style_label_down, color = color.new(color.teal, 20),
+         textcolor = color.white, size = size.small)
+if bearBreak
+    lowBroken := true
+    isChoch = trendDir == 1
+    trendDir := -1
+    label.new(bar_index, lastSwingLow, isChoch ? "CHoCH" : "BOS",
+         style = label.style_label_up, color = color.new(color.maroon, 20),
+         textcolor = color.white, size = size.small)
+
+// ─────────────────────────── Kill zones (UTC) ───────────────────────────
+// Explicit UTC anchoring via time(..., "UTC") — never syminfo.timezone,
+// which differs across FX/crypto feeds and would shift the boxes.
+inAsia   = showKZ and not na(time(timeframe.period, kzAsia,   "UTC"))
+inLondon = showKZ and not na(time(timeframe.period, kzLondon, "UTC"))
+inNYAM   = showKZ and not na(time(timeframe.period, kzNYAM,   "UTC"))
+inNYPM   = showKZ and not na(time(timeframe.period, kzNYPM,   "UTC"))
+inAnyKZ  = inAsia or inLondon or inNYAM or inNYPM
+
+bgcolor(inAnyKZ ? colKZ : na, title = "Kill zone shading")
