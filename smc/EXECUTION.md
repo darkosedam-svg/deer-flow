@@ -32,6 +32,20 @@ tests) so splitting out is `git mv` + push, no rework:
 | M6 payment stack tested live | **Mon 14 Sep** | 🟡 Core scaffold done+tested: HMAC verify, idempotency, entitlements, grant/revoke queue, lifetime-immunity. Remaining: email/Discord workers, reconciliation, admin auth, live €1 test |
 | M7 forward-test automation | Mon 28 Sep | ⬜ Not started |
 
+## Research finding (session 3) — systematic sweep of the naive family
+
+48-config walk-forward sweep (stop mode {extreme, ATR×0.5/1.0/2.0} ×
+swing strength {3,5} × min-risk filter {0/30/60bps} × {15m, 1h}), all
+out-of-sample with costs: **every config is negative.** Best: 1h, ATR×2.0
+stops, ss=3 → −0.10R [−0.17, −0.04], n=950. The axes worked as predicted
+(worst 15m config −0.90R → best 1h config −0.10R; wider stops and slower
+bars cut cost drag ~9×) but the raw sweep-fade signal carries no edge that
+clears zero. Conclusion: stop re-tuning this family; redesign the signal.
+Full table: `smc-research/reports_out/strategy_research.csv` (regenerate
+with `scripts/research_strategies.py`). Next: structurally different
+hypotheses (trend alignment, limit entries at the swept level, exit design,
+session filters, FVG/OB confluence, 4h) — multi-agent exploration in flight.
+
 ## Research finding (session 2) — read before recording the W5 video
 
 First honest walk-forward run of the naive baseline (sweep-confirmation,
