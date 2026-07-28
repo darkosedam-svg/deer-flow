@@ -40,13 +40,13 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
-from smc_research import load                                # noqa: E402
-from smc_research.detectors import LiquiditySweepDetector    # noqa: E402
-from smc_research.detectors.types import iter_bars           # noqa: E402
-from smc_research.engine.backtester import Trade             # noqa: E402
-from smc_research.engine.costs import COST_MODELS, CostModel # noqa: E402
+from smc_research import load  # noqa: E402
+from smc_research.detectors import LiquiditySweepDetector  # noqa: E402
+from smc_research.detectors.types import iter_bars  # noqa: E402
+from smc_research.engine.backtester import Trade  # noqa: E402
+from smc_research.engine.costs import COST_MODELS, CostModel  # noqa: E402
 from smc_research.engine.walkforward import iter_split_frames, make_splits  # noqa: E402
-from smc_research.stats import expectancy_ci, summarize      # noqa: E402
+from smc_research.stats import expectancy_ci, summarize  # noqa: E402
 
 SYMBOL = "BTCUSD"
 START, END = "2023-01-01", "2026-07-28"

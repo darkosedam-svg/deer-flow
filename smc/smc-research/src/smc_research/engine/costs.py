@@ -34,6 +34,8 @@ COST_MODELS: dict[str, CostModel] = {
     "ETHUSD": CostModel(spread_bps=1.5, slippage_bps=2.5, commission_bps=4.5),
     "EURUSD": CostModel(spread_bps=1.2, slippage_bps=0.5, commission_bps=0.5),
     "SPY": CostModel(spread_bps=0.5, slippage_bps=0.5, commission_bps=0.5),
+    # Index CFD: spread-only pricing (~0.5-0.8pt on ~5000), no commission.
+    "SPX500": CostModel(spread_bps=1.5, slippage_bps=0.5, commission_bps=0.0),
 }
 
 ZERO_COSTS = CostModel(0.0, 0.0, 0.0)

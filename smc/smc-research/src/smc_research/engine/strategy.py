@@ -14,7 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-from smc_research.detectors import LiquiditySweepDetector
+from smc_research.detectors import LiquiditySweepDetector, StructureDetector
 from smc_research.detectors.types import Bar, Signal
 
 
@@ -104,4 +104,89 @@ class SweepConfirmationStrategy(Strategy):
                     reason="sweep_buyside",
                     meta={"level": sig.price},
                 )
+        return None
+
+
+class TrendAlignedSweepStrategy(Strategy):
+    """Sweep entry gated by StructureDetector trend state (session-3b lead).
+
+    mode="aligned": long on sell-side sweeps only in a bullish trend, short
+    on buy-side sweeps only in a bearish trend. mode="counter" is the exact
+    mirror, kept as the experiment control. Stop: sweep-bar extreme
+    ± atr_mult × ATR(atr_len), ATR incremental from completed bars only.
+
+    Promoted from scripts/experiments/trend_aligned.py — the only variant of
+    the sweep family whose best cell (4h, ATR×2, k=3) was positive OOS every
+    calendar year; still statistically unresolved (see RESEARCH_LOG.md).
+    """
+
+    def __init__(
+        self,
+        swing_strength: int = 3,
+        atr_mult: float = 2.0,
+        atr_len: int = 14,
+        mode: str = "aligned",
+    ):
+        self.params = {
+            "swing_strength": swing_strength,
+            "atr_mult": atr_mult,
+            "atr_len": atr_len,
+            "mode": mode,
+        }
+        self._sweeps = LiquiditySweepDetector(swing_strength=swing_strength)
+        self._structure = StructureDetector(swing_strength=swing_strength)
+        self.atr_mult = atr_mult
+        self.atr_len = atr_len
+        self.mode = mode
+        self._trend = "none"
+        self._trs: list[float] = []
+        self._prev_close: float | None = None
+
+    def _update_atr(self, bar: Bar) -> float | None:
+        tr = bar.high - bar.low
+        if self._prev_close is not None:
+            tr = max(tr, abs(bar.high - self._prev_close), abs(bar.low - self._prev_close))
+        self._trs.append(tr)
+        if len(self._trs) > self.atr_len:
+            self._trs.pop(0)
+        self._prev_close = bar.close
+        if len(self._trs) < self.atr_len:
+            return None
+        return sum(self._trs) / self.atr_len
+
+    def update(self, bar: Bar) -> EntryIntent | None:
+        atr = self._update_atr(bar)
+
+        # Structure first, so a break closing on this bar updates the trend
+        # before the sweep gate is evaluated. Both see only completed bars.
+        for sig in self._structure.update(bar):
+            if sig.kind in ("bos", "choch"):
+                self._trend = sig.direction
+
+        signals: list[Signal] = self._sweeps.update(bar)
+        if atr is None:
+            return None
+        buffer = self.atr_mult * atr
+
+        for sig in signals:
+            if sig.kind != "liquidity_sweep":
+                continue
+            if sig.direction == "bullish":  # sell-side liquidity taken -> long
+                want = "bullish" if self.mode == "aligned" else "bearish"
+                if self._trend == want:
+                    return EntryIntent(
+                        direction="long",
+                        stop_price=bar.low - buffer,
+                        reason=f"sweep_sellside_{self.mode}",
+                        meta={"level": sig.price, "trend": self._trend},
+                    )
+            elif sig.direction == "bearish":  # buy-side taken -> short
+                want = "bearish" if self.mode == "aligned" else "bullish"
+                if self._trend == want:
+                    return EntryIntent(
+                        direction="short",
+                        stop_price=bar.high + buffer,
+                        reason=f"sweep_buyside_{self.mode}",
+                        meta={"level": sig.price, "trend": self._trend},
+                    )
         return None
