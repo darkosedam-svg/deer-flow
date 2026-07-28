@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Backtest Report — {{ generated_at }}</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; margin: 2rem auto; max-width: 900px; color: #1a1a1a; line-height: 1.5; }
+  h1, h2 { border-bottom: 2px solid #ddd; padding-bottom: .3rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ccc; padding: .45rem .6rem; text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  .ci { color: #555; font-size: .9em; }
+  .warn { background: #fff3cd; border: 1px solid #ffe08a; padding: .8rem 1rem; border-radius: 6px; }
+  .disclaimer { font-size: .85em; color: #666; border-top: 1px solid #ddd; margin-top: 2rem; padding-top: 1rem; }
+  img.curve { max-width: 100%; }
+  code { background: #f4f4f4; padding: .1rem .3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>Backtest Report</h1>
+<p>Generated {{ generated_at }} · strategy: <strong>{{ strategy_name }}</strong> · all figures <strong>out-of-sample only</strong> (walk-forward)</p>
+
+{% if any_small_sample %}
+<div class="warn"><strong>Sample-size warning:</strong> at least one instrument has fewer than 30 out-of-sample trades. Rates on small samples are noise; the confidence intervals below are the honest number.</div>
+{% endif %}
+
+<h2>Methodology</h2>
+<ul>
+  <li><strong>Signals:</strong> {{ methodology.signals }}</li>
+  <li><strong>Entry:</strong> next-bar open after signal confirmation — never the signal bar's close.</li>
+  <li><strong>Exits:</strong> stop at structural invalidation, target at {{ methodology.target_r }}R, time-stop after {{ methodology.time_stop_bars }} bars. When one bar touches both stop and target, the <em>stop</em> is assumed filled (conservative).</li>
+  <li><strong>Position model:</strong> one position at a time, fixed risk per trade; results in R multiples.</li>
+  <li><strong>Walk-forward:</strong> {{ methodology.train_months }}-month optimize / {{ methodology.test_months }}-month out-of-sample, rolled forward; parameters re-selected per window on training data only. Reported trades are the concatenated test windows.</li>
+  <li><strong>Confidence intervals:</strong> percentile bootstrap, {{ methodology.bootstrap_iters }} resamples, seeded (reproducible).</li>
+  <li><strong>Data:</strong> {{ methodology.data_note }}</li>
+</ul>
+
+<h2>Cost assumptions</h2>
+<table>
+  <tr><th>Instrument</th><th>Spread (bps)</th><th>Slippage / side (bps)</th><th>Commission / side (bps)</th></tr>
+  {% for row in cost_rows %}
+  <tr><td>{{ row.symbol }}</td><td>{{ row.spread_bps }}</td><td>{{ row.slippage_bps }}</td><td>{{ row.commission_bps }}</td></tr>
+  {% endfor %}
+</table>
+
+<h2>Results (out-of-sample)</h2>
+<table>
+  <tr>
+    <th>Instrument</th><th>Trades</th><th>Hit rate <span class="ci">[95% CI]</span></th>
+    <th>Expectancy (R) <span class="ci">[95% CI]</span></th><th>Avg win / loss (R)</th>
+    <th>Profit factor</th><th>Total R</th><th>Max DD (R)</th><th>Longest flat</th>
+  </tr>
+  {% for row in result_rows %}
+  <tr>
+    <td>{{ row.symbol }} {{ row.timeframe }}</td>
+    <td><strong>{{ row.n }}</strong></td>
+    <td>{{ "%.1f%%"|format(row.hit_rate*100) }} <span class="ci">[{{ "%.1f"|format(row.hit_lo*100) }}–{{ "%.1f"|format(row.hit_hi*100) }}%]</span></td>
+    <td>{{ "%.3f"|format(row.expectancy) }} <span class="ci">[{{ "%.3f"|format(row.exp_lo) }}–{{ "%.3f"|format(row.exp_hi) }}]</span></td>
+    <td>{{ "%.2f"|format(row.avg_win) }} / {{ "%.2f"|format(row.avg_loss) }}</td>
+    <td>{{ row.profit_factor }}</td>
+    <td>{{ "%.1f"|format(row.total_r) }}</td>
+    <td>{{ "%.1f"|format(row.max_dd) }}</td>
+    <td>{{ row.longest_flat }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% for row in result_rows %}
+<h2>{{ row.symbol }} {{ row.timeframe }} — equity curve (R), drawdown periods shaded</h2>
+{% if row.n < 30 %}<p class="warn">Only {{ row.n }} out-of-sample trades — treat every number above as provisional.</p>{% endif %}
+<img class="curve" src="data:image/png;base64,{{ row.curve_png }}" alt="equity curve {{ row.symbol }}">
+<p class="ci">Chosen parameters per walk-forward window: <code>{{ row.chosen_params }}</code></p>
+{% endfor %}
+
+<div class="disclaimer">
+  <p><strong>Disclaimer:</strong> For educational and research purposes only. Not financial advice. Past performance does not guarantee future results. Backtested results are hypothetical, include modelled costs as stated above, and do not account for all market conditions (funding, liquidity gaps, exchange outages).</p>
+  <p>Reproducibility: methodology above is complete; data sources are public (Binance archive, Hyperliquid). Seeds fixed for bootstrap resampling.</p>
+</div>
+
+</body>
+</html>
