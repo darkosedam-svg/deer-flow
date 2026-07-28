@@ -53,6 +53,7 @@ def run_backtest(
     costs: CostModel,
     target_r: float = 2.0,
     time_stop_bars: int = 96,
+    min_risk_bps: float = 0.0,
 ) -> list[Trade]:
     trades: list[Trade] = []
     pending: EntryIntent | None = None
@@ -67,7 +68,10 @@ def run_backtest(
                 if pending.direction == "long"
                 else pending.stop_price - raw
             )
-            if risk > 0:  # a gap through the stop makes the setup invalid; skip
+            # Cost-aware filter: risk narrower than min_risk_bps of price means
+            # round-trip costs dominate the R math — skip the setup entirely.
+            wide_enough = risk > 0 and (risk / raw) * 1e4 >= min_risk_bps
+            if wide_enough:  # a gap through the stop also invalidates the setup
                 fill = costs.buy_fill(raw) if pending.direction == "long" else costs.sell_fill(raw)
                 target = (
                     raw + target_r * risk

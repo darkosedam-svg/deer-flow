@@ -17,6 +17,9 @@ from smc_research.engine.backtester import Trade, run_backtest
 from smc_research.engine.costs import CostModel
 from smc_research.engine.strategy import Strategy
 
+# Grid keys consumed by run_backtest rather than the strategy constructor.
+ENGINE_PARAM_KEYS = {"min_risk_bps"}
+
 
 @dataclass(frozen=True)
 class Split:
@@ -79,14 +82,19 @@ def walk_forward(
     oos: list[Trade] = []
     chosen: list[dict[str, Any]] = []
 
+    def _run(frame: pd.DataFrame, params: dict[str, Any]) -> list[Trade]:
+        # Reserved keys route to the engine; everything else is a strategy param.
+        engine_kwargs = {k: v for k, v in params.items() if k in ENGINE_PARAM_KEYS}
+        strat_params = {k: v for k, v in params.items() if k not in ENGINE_PARAM_KEYS}
+        return run_backtest(
+            frame, strategy_factory(**strat_params), costs,
+            target_r=target_r, time_stop_bars=time_stop_bars, **engine_kwargs,
+        )
+
     for split, train, test in iter_split_frames(df, splits):
         best_params, best_score = None, float("-inf")
         for params in param_grid:
-            trades = run_backtest(
-                train, strategy_factory(**params), costs,
-                target_r=target_r, time_stop_bars=time_stop_bars,
-            )
-            score = _score(trades, min_train_trades)
+            score = _score(_run(train, params), min_train_trades)
             if score > best_score:
                 best_params, best_score = params, score
         if best_params is None:
@@ -94,10 +102,5 @@ def walk_forward(
         chosen.append(
             {**best_params, "_train_score": best_score, "_split": str(split.train_end.date())}
         )
-        oos.extend(
-            run_backtest(
-                test, strategy_factory(**best_params), costs,
-                target_r=target_r, time_stop_bars=time_stop_bars,
-            )
-        )
+        oos.extend(_run(test, best_params))
     return WalkForwardResult(oos_trades=oos, chosen_params=chosen, splits=splits)

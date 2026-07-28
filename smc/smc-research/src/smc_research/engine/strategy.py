@@ -38,23 +38,58 @@ class Strategy:
 class SweepConfirmationStrategy(Strategy):
     """Long after a sell-side liquidity sweep, short after a buy-side sweep.
 
-    Stop goes beyond the sweep bar's extreme (the level that, if traded
-    through, invalidates the stop-hunt read). stop_buffer_frac widens it by a
-    fraction of the sweep bar's range.
+    Stop placement (the session-2 research axis — sweep-extreme stops proved
+    uneconomically tight vs costs on 15m):
+    - atr_mult=None: stop beyond the sweep bar's extreme, widened by
+      stop_buffer_frac × bar range (the original naive baseline).
+    - atr_mult set: structural stop at sweep extreme ± atr_mult × ATR(atr_len)
+      — ATR is computed incrementally from completed bars only.
     """
 
-    def __init__(self, swing_strength: int = 3, stop_buffer_frac: float = 0.1):
-        self.params = {"swing_strength": swing_strength, "stop_buffer_frac": stop_buffer_frac}
+    def __init__(
+        self,
+        swing_strength: int = 3,
+        stop_buffer_frac: float = 0.1,
+        atr_mult: float | None = None,
+        atr_len: int = 14,
+    ):
+        self.params = {
+            "swing_strength": swing_strength,
+            "stop_buffer_frac": stop_buffer_frac,
+            "atr_mult": atr_mult,
+            "atr_len": atr_len,
+        }
         self._detector = LiquiditySweepDetector(swing_strength=swing_strength)
         self.stop_buffer_frac = stop_buffer_frac
+        self.atr_mult = atr_mult
+        self.atr_len = atr_len
+        self._trs: list[float] = []
+        self._prev_close: float | None = None
+
+    def _update_atr(self, bar: Bar) -> float | None:
+        tr = bar.high - bar.low
+        if self._prev_close is not None:
+            tr = max(tr, abs(bar.high - self._prev_close), abs(bar.low - self._prev_close))
+        self._trs.append(tr)
+        if len(self._trs) > self.atr_len:
+            self._trs.pop(0)
+        self._prev_close = bar.close
+        if len(self._trs) < self.atr_len:
+            return None
+        return sum(self._trs) / self.atr_len
 
     def update(self, bar: Bar) -> EntryIntent | None:
+        atr = self._update_atr(bar)  # includes this bar; entry fills next bar
         signals: list[Signal] = self._detector.update(bar)
         for sig in signals:
             if sig.kind != "liquidity_sweep":
                 continue
-            bar_range = bar.high - bar.low
-            buffer = self.stop_buffer_frac * bar_range
+            if self.atr_mult is not None:
+                if atr is None:
+                    continue  # ATR not warmed up yet
+                buffer = self.atr_mult * atr
+            else:
+                buffer = self.stop_buffer_frac * (bar.high - bar.low)
             if sig.direction == "bullish":
                 return EntryIntent(
                     direction="long",
