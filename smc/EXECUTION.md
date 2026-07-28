@@ -32,6 +32,20 @@ tests) so splitting out is `git mv` + push, no rework:
 | M6 payment stack tested live | **Mon 14 Sep** | 🟡 Core scaffold done+tested: HMAC verify, idempotency, entitlements, grant/revoke queue, lifetime-immunity. Remaining: email/Discord workers, reconciliation, admin auth, live €1 test |
 | M7 forward-test automation | Mon 28 Sep | ⬜ Not started |
 
+## Research finding (session 3b) — six structural redesigns, multi-agent
+
+Six hypothesis families explored in parallel (trend alignment, limit
+entries, exit design, session filters, FVG/OB confluence, 4h), ~70 configs,
+all walk-forward OOS with costs, positives adversarially verified (1.5×
+costs, year-split stability, lookahead audit). **Nothing clears the CI
+gate.** One live thread: with-trend 4h sweeps (+0.089R, n=101, CI spans
+zero; mirror control clearly worse) — a real bleed-reduction mechanism, not
+yet an edge. Full table + standing conclusions in
+`smc-research/RESEARCH_LOG.md`. Next discriminating test: pool the
+trend-aligned 4h config across ETH/EURUSD/ES (needs the multi-instrument
+data path). Strategy pivot to consider after that: FVG-retrace continuation
+family through the same harness.
+
 ## Research finding (session 3) — systematic sweep of the naive family
 
 48-config walk-forward sweep (stop mode {extreme, ATR×0.5/1.0/2.0} ×
