@@ -32,6 +32,17 @@ tests) so splitting out is `git mv` + push, no rework:
 | M6 payment stack tested live | **Mon 14 Sep** | 🟡 Core scaffold done+tested: HMAC verify, idempotency, entitlements, grant/revoke queue, lifetime-immunity. Remaining: email/Discord workers, reconciliation, admin auth, live €1 test |
 | M7 forward-test automation | Mon 28 Sep | ⬜ Not started |
 
+## Research finding (session 4) — transfer verdict: sweep family RETIRED
+
+The BTC-selected trend-aligned 4h config, run frozen on instruments it
+never saw (ETH, EURUSD, SPX500 — Dukascopy loader now serves FX/index
+data): pooled n=334, expectancy −0.048R [−0.166, +0.072]. Pre-registered
+rule applied → **family retired**; the BTC positive cell was winner's-curse
+selection bias. Next signal class through the identical harness:
+FVG-retrace continuation (pre-registration written in RESEARCH_LOG.md).
+Side benefit: EURUSD + SPX500 data paths now exist, unblocking the
+3-instrument M3 report.
+
 ## Research finding (session 3b) — six structural redesigns, multi-agent
 
 Six hypothesis families explored in parallel (trend alignment, limit

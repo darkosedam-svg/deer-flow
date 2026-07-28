@@ -36,21 +36,48 @@ CI spans zero, it is the max of 8 cells (winner's curse), and excluding the
 top 5 days the expectancy is −0.008R. **Treat as "zero-to-slightly-positive
 mechanism", not an edge.**
 
+## Session 4 (2026-07-28) — pooled transfer test: VERDICT, family retired
+
+`scripts/pooled_transfer_test.py`. The BTC-selected trend-aligned config
+(4h, ATR×2, k=3, aligned, 2R target, 30-bar time stop) run FROZEN on
+instruments it never saw, full 2023→2026, per-instrument costs; BTC
+excluded from the pool (it selected the config):
+
+| Instrument | n | Hit rate | Expectancy [95% CI] | PF | Total R |
+|---|---|---|---|---|---|
+| ETHUSD | 135 | 37.0% | −0.067R [−0.254, +0.123] | 0.87 | −9.1 |
+| EURUSD | 102 | 39.2% | −0.131R [−0.337, +0.084] | 0.77 | −13.4 |
+| SPX500 | 97 | 45.4% | +0.067R [−0.160, +0.308] | 1.13 | +6.5 |
+| **POOLED** | **334** | **40.1%** | **−0.048R [−0.166, +0.072]** | 0.91 | −15.9 |
+| BTCUSD (reference, not pooled) | 129 | 49.6% | +0.105R [−0.107, +0.319] | 1.23 | +13.6 |
+
+**Pre-registered decision rule applied: the pooled CI straddles zero with a
+negative point estimate → the sweep family is RETIRED.** The BTC +0.09R
+cell was selection bias, exactly as the winner's-curse caveat predicted —
+the mechanism does not transfer. The one soft note: SPX500 is the only
+transfer instrument with a positive point estimate and BTC remains
+non-negative, so if the sweep concept ever returns it returns as an
+index/crypto-trend phenomenon — but that is a new hypothesis for a new
+pre-registered test, not a reprieve for this one.
+
 ## Standing conclusions
 
-1. The liquidity-sweep signal family, in every structural variant tried
-   (~120 configs OOS), has no statistically demonstrable post-cost edge on
-   BTCUSD alone. Do not build product claims on it.
-2. Two mechanisms measurably reduce bleed and should persist in any future
+1. **The liquidity-sweep signal family is retired** (session 4): ~120
+   configs OOS on BTC plus a frozen-config transfer test across ETH/EURUSD/
+   SPX500 (pooled n=334, −0.048R [−0.166, +0.072]). Do not build product
+   claims on it; do not re-tune it without a genuinely new mechanism and a
+   pre-registered test.
+2. Two mechanisms measurably reduced bleed and should persist in any future
    design: trend alignment (structure-state gate) and wide structural stops
    (ATR×2) on slow timeframes.
-3. Next discriminating test (cheap, high information): pool the
-   trend-aligned 4h configuration across instruments (ETH, EURUSD, ES) —
-   needs the EURUSD/ES data path (M0 leftover). If the pooled CI still
-   straddles zero, retire the family and evaluate a different signal class
-   (e.g., FVG-retrace continuation) with the same harness.
+3. Next signal class through the same harness: **FVG-retrace continuation**
+   (displacement creates an FVG in trend direction; enter on retrace into
+   the gap; stop beyond the far edge). Pre-register before running: primary
+   metric pooled OOS expectancy CI across BTC/ETH/EURUSD/SPX500 4h+1h,
+   same walk-forward, same costs, decision rule identical to session 4.
 4. Product implication (Plan A/B): the sellable differentiator was never a
-   magic win rate — it is the measurement infrastructure itself. The Pro
-   stats panel shows measured per-setup hit rates with sample sizes; these
-   findings are publishable as forward-test honesty content once framed as
-   research, with no performance promises.
+   magic win rate — it is the measurement infrastructure itself, which has
+   now killed two false positives that a typical vendor would have shipped.
+   The Pro stats panel shows measured per-setup hit rates with sample
+   sizes; these findings are publishable as research-honesty content with
+   no performance promises.
