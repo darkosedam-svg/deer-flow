@@ -14,7 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-from smc_research.detectors import LiquiditySweepDetector, StructureDetector
+from smc_research.detectors import FVGDetector, LiquiditySweepDetector, StructureDetector
 from smc_research.detectors.types import Bar, Signal
 
 
@@ -190,3 +190,114 @@ class TrendAlignedSweepStrategy(Strategy):
                         meta={"level": sig.price, "trend": self._trend},
                     )
         return None
+
+
+class FVGRetraceStrategy(Strategy):
+    """Pre-registered session-5 family: FVG-retrace continuation.
+
+    Mechanism: displacement creates a fair value gap in the direction of the
+    prevailing structure trend; price retracing INTO the gap is the entry.
+    Concretely (bullish case, mirrored for bearish):
+    - StructureDetector trend must be bullish when the FVG is created;
+    - the gap (bottom, top) becomes the pending setup, entry level
+      top − entry_frac × height (entry_frac=0.5 is the gap midpoint / CE);
+    - a later bar trading down to the entry level arms the entry — the
+      engine fills at the NEXT bar's open (no lookahead);
+    - stop = gap bottom − stop_atr_mult × ATR(atr_len) (beyond the far edge);
+    - the setup expires untouched after expiry_bars; a newer aligned FVG
+      replaces an older pending one.
+
+    Retained mechanisms from retired families (RESEARCH_LOG conclusions):
+    trend gating and ATR-buffered structural stops.
+    """
+
+    def __init__(
+        self,
+        entry_frac: float = 0.5,
+        stop_atr_mult: float = 1.0,
+        swing_strength: int = 3,
+        atr_len: int = 14,
+        expiry_bars: int = 12,
+    ):
+        self.params = {
+            "entry_frac": entry_frac,
+            "stop_atr_mult": stop_atr_mult,
+            "swing_strength": swing_strength,
+            "atr_len": atr_len,
+            "expiry_bars": expiry_bars,
+        }
+        self._fvg = FVGDetector()
+        self._structure = StructureDetector(swing_strength=swing_strength)
+        self.entry_frac = entry_frac
+        self.stop_atr_mult = stop_atr_mult
+        self.atr_len = atr_len
+        self.expiry_bars = expiry_bars
+        self._trend = "none"
+        self._trs: list[float] = []
+        self._prev_close: float | None = None
+        # pending: (direction, entry_level, stop_price, age)
+        self._pending: tuple[str, float, float, int] | None = None
+
+    def _update_atr(self, bar: Bar) -> float | None:
+        tr = bar.high - bar.low
+        if self._prev_close is not None:
+            tr = max(tr, abs(bar.high - self._prev_close), abs(bar.low - self._prev_close))
+        self._trs.append(tr)
+        if len(self._trs) > self.atr_len:
+            self._trs.pop(0)
+        self._prev_close = bar.close
+        if len(self._trs) < self.atr_len:
+            return None
+        return sum(self._trs) / self.atr_len
+
+    def update(self, bar: Bar) -> EntryIntent | None:
+        atr = self._update_atr(bar)
+
+        for sig in self._structure.update(bar):
+            if sig.kind in ("bos", "choch"):
+                self._trend = sig.direction
+
+        # 1) Does this bar touch the pending entry level? (Checked BEFORE new
+        #    setups so a gap created on this bar can't be entered on itself.)
+        intent: EntryIntent | None = None
+        if self._pending is not None:
+            direction, entry_level, stop_price, age = self._pending
+            touched = bar.low <= entry_level if direction == "long" else bar.high >= entry_level
+            if touched:
+                intent = EntryIntent(
+                    direction=direction,
+                    stop_price=stop_price,
+                    reason=f"fvg_retrace_{direction}",
+                    meta={"entry_level": entry_level},
+                )
+                self._pending = None
+            elif age + 1 >= self.expiry_bars:
+                self._pending = None
+            else:
+                self._pending = (direction, entry_level, stop_price, age + 1)
+
+        # 2) New aligned FVG becomes (replaces) the pending setup.
+        if atr is not None:
+            for sig in self._fvg.update(bar):
+                if sig.kind != "fvg_created":
+                    continue
+                top, bottom = sig.meta["top"], sig.meta["bottom"]
+                height = top - bottom
+                if sig.direction == "bullish" and self._trend == "bullish":
+                    self._pending = (
+                        "long",
+                        top - self.entry_frac * height,
+                        bottom - self.stop_atr_mult * atr,
+                        0,
+                    )
+                elif sig.direction == "bearish" and self._trend == "bearish":
+                    self._pending = (
+                        "short",
+                        bottom + self.entry_frac * height,
+                        top + self.stop_atr_mult * atr,
+                        0,
+                    )
+        else:
+            self._fvg.update(bar)  # keep detector state warm during ATR warm-up
+
+        return intent

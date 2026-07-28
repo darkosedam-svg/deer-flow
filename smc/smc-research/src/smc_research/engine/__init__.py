@@ -2,6 +2,7 @@ from smc_research.engine.backtester import Trade, run_backtest, trades_to_frame
 from smc_research.engine.costs import COST_MODELS, ZERO_COSTS, CostModel
 from smc_research.engine.strategy import (
     EntryIntent,
+    FVGRetraceStrategy,
     Strategy,
     SweepConfirmationStrategy,
     TrendAlignedSweepStrategy,
@@ -13,6 +14,7 @@ __all__ = [
     "ZERO_COSTS",
     "CostModel",
     "EntryIntent",
+    "FVGRetraceStrategy",
     "Strategy",
     "SweepConfirmationStrategy",
     "Trade",
