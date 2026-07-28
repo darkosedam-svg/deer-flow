@@ -42,6 +42,13 @@ def test_integrity_rejects_naive_index(fixture_df):
         integrity_report(naive, "15m")
 
 
+def test_integrity_rejects_nan_cells(fixture_df):
+    bad = fixture_df.copy()
+    bad.iloc[5, bad.columns.get_loc("close")] = float("nan")
+    with pytest.raises(IntegrityError, match="NaN"):
+        assert_integrity(bad, "15m")
+
+
 def test_integrity_counts_ohlc_violations(fixture_df):
     bad = fixture_df.copy()
     bad.iloc[10, bad.columns.get_loc("high")] = bad.iloc[10]["low"] - 1

@@ -68,6 +68,10 @@ def test_load_btc_live_smoke(tmp_path):
     df = load("BTCUSD", "15m", "2024-01-01", "2024-02-01", cache_dir=tmp_path)
     assert len(df) == 31 * 96  # complete 24/7 month of 15m bars
     assert df.index.is_monotonic_increasing and not df.index.has_duplicates
+    # Values must be real prices, not NaN (regression: index-alignment bug
+    # once produced an all-NaN frame that passed the shape checks).
+    assert df.isna().sum().sum() == 0
+    assert 10_000 < df["close"].iloc[0] < 1_000_000
 
 
 @pytest.mark.live

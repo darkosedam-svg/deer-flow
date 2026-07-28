@@ -5,3 +5,4 @@ data_cache/
 .pytest_cache/
 .ruff_cache/
 dist/
+reports_out/

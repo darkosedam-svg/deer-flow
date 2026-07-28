@@ -46,6 +46,7 @@ class IntegrityReport:
     gap_ratio: float
     largest_gap: pd.Timedelta
     ohlc_violations: int
+    nan_cells: int
 
 
 def to_canonical(df: pd.DataFrame) -> pd.DataFrame:
@@ -101,6 +102,7 @@ def integrity_report(df: pd.DataFrame, timeframe: str) -> IntegrityReport:
         gap_ratio=missing / expected if expected else 0.0,
         largest_gap=largest_gap,
         ohlc_violations=ohlc_bad,
+        nan_cells=int(df.isna().sum().sum()),
     )
 
 
@@ -109,6 +111,8 @@ def assert_integrity(
 ) -> IntegrityReport:
     """M0 exit-criterion check: raise IntegrityError unless the frame is clean."""
     report = integrity_report(df, timeframe)
+    if report.nan_cells:
+        raise IntegrityError(f"{report.nan_cells} NaN cells — loader produced invalid data")
     if report.gap_ratio > max_gap_ratio:
         raise IntegrityError(
             f"gap ratio {report.gap_ratio:.4f} exceeds threshold {max_gap_ratio} "

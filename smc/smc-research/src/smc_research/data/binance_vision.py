@@ -55,15 +55,17 @@ def fetch_month(
     open_time = pd.to_numeric(raw["open_time"])
     unit = "us" if open_time.iloc[0] > _MS_MAX else "ms"
     idx = pd.to_datetime(open_time, unit=unit, utc=True)
+    # .to_numpy() strips the RangeIndex — passing raw Series here would align
+    # them against the datetime index and silently produce all-NaN columns.
     df = pd.DataFrame(
         {
-            "open": pd.to_numeric(raw["open"]),
-            "high": pd.to_numeric(raw["high"]),
-            "low": pd.to_numeric(raw["low"]),
-            "close": pd.to_numeric(raw["close"]),
-            "volume": pd.to_numeric(raw["volume"]),
+            "open": pd.to_numeric(raw["open"]).to_numpy(),
+            "high": pd.to_numeric(raw["high"]).to_numpy(),
+            "low": pd.to_numeric(raw["low"]).to_numpy(),
+            "close": pd.to_numeric(raw["close"]).to_numpy(),
+            "volume": pd.to_numeric(raw["volume"]).to_numpy(),
         },
-        index=idx,
+        index=pd.DatetimeIndex(idx.to_numpy()),
     )
     df.index.name = "timestamp"
     return to_canonical(df)

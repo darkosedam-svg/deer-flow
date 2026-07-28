@@ -60,15 +60,17 @@ def fetch_candles(
         return _empty_frame()
     df = pd.DataFrame(rows)
     idx = pd.to_datetime(df["t"], unit="ms", utc=True)
+    # .to_numpy() strips the RangeIndex — raw Series would align against the
+    # datetime index and silently produce all-NaN columns.
     out = pd.DataFrame(
         {
-            "open": pd.to_numeric(df["o"]),
-            "high": pd.to_numeric(df["h"]),
-            "low": pd.to_numeric(df["l"]),
-            "close": pd.to_numeric(df["c"]),
-            "volume": pd.to_numeric(df["v"]),
+            "open": pd.to_numeric(df["o"]).to_numpy(),
+            "high": pd.to_numeric(df["h"]).to_numpy(),
+            "low": pd.to_numeric(df["l"]).to_numpy(),
+            "close": pd.to_numeric(df["c"]).to_numpy(),
+            "volume": pd.to_numeric(df["v"]).to_numpy(),
         },
-        index=idx,
+        index=pd.DatetimeIndex(idx.to_numpy()),
     )
     out.index.name = "timestamp"
     out = to_canonical(out)
