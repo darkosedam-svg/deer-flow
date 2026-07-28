@@ -60,6 +60,27 @@ non-negative, so if the sweep concept ever returns it returns as an
 index/crypto-trend phenomenon — but that is a new hypothesis for a new
 pre-registered test, not a reprieve for this one.
 
+## Session 5 (2026-07-28) — FVG-retrace continuation: RETIRED, decisively
+
+`scripts/fvg_retrace_experiment.py` (pre-registered in the prior commit —
+grid, cells, and rule frozen before any result existed). Trend-aligned FVG
+→ retrace entry, stop beyond far edge − ATR buffer, 2R target; grid
+entry_frac {0.5,1.0} × stop_atr_mult {0.5,1.0} selected per walk-forward
+window; 8 cells = {BTC, ETH, EURUSD, SPX500} × {1h, 4h}:
+
+| Cell | n | Expectancy [95% CI] |
+|---|---|---|
+| BTCUSD 1h / 4h | 1326 / 297 | −0.401 / −0.312 |
+| ETHUSD 1h / 4h | 1283 / 284 | −0.263 / −0.635 |
+| EURUSD 1h / 4h | 863 / 218 | −0.355 / −0.998 |
+| SPX500 1h / 4h | 831 / 237 | −0.257 / −0.314 |
+| **POOLED** | **5339** | **−0.366R [−0.453, −0.290]** |
+
+Every cell negative; the pooled CI sits entirely below zero. This is not
+"insignificant" — the naive fill-the-gap continuation entry is measurably
+a losing proposition after costs at these horizons. **Family retired per
+the pre-registered rule.**
+
 ## Standing conclusions
 
 1. **The liquidity-sweep signal family is retired** (session 4): ~120
@@ -70,11 +91,13 @@ pre-registered test, not a reprieve for this one.
 2. Two mechanisms measurably reduced bleed and should persist in any future
    design: trend alignment (structure-state gate) and wide structural stops
    (ATR×2) on slow timeframes.
-3. Next signal class through the same harness: **FVG-retrace continuation**
-   (displacement creates an FVG in trend direction; enter on retrace into
-   the gap; stop beyond the far edge). Pre-register before running: primary
-   metric pooled OOS expectancy CI across BTC/ETH/EURUSD/SPX500 4h+1h,
-   same walk-forward, same costs, decision rule identical to session 4.
+3. **FVG-retrace continuation retired** (session 5): pooled n=5,339,
+   −0.366R [−0.453, −0.290] — significantly negative in every cell. Two SMC
+   entry families are now measured and retired with tight CIs.
+   Research posture going forward: new families only with a pre-registered
+   test AND a mechanistic reason to expect post-cost edge; the program's
+   product-relevant output — honest measurement infrastructure plus the
+   demonstrated discipline of killing losers — is already in hand.
 4. Product implication (Plan A/B): the sellable differentiator was never a
    magic win rate — it is the measurement infrastructure itself, which has
    now killed two false positives that a typical vendor would have shipped.

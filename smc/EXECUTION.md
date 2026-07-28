@@ -32,6 +32,17 @@ tests) so splitting out is `git mv` + push, no rework:
 | M6 payment stack tested live | **Mon 14 Sep** | 🟡 Core scaffold done+tested: HMAC verify, idempotency, entitlements, grant/revoke queue, lifetime-immunity. Remaining: email/Discord workers, reconciliation, admin auth, live €1 test |
 | M7 forward-test automation | Mon 28 Sep | ⬜ Not started |
 
+## Research finding (session 5) — FVG-retrace family RETIRED decisively
+
+Pre-registered pooled test (8 cells, 4 instruments × 2 timeframes,
+n=5,339): expectancy −0.366R [−0.453, −0.290], every cell negative. The
+naive gap-fill continuation entry measurably loses after costs. Strategic
+consequence: two families retired with tight CIs; further family
+exploration is optional research, not launch-critical. Engineering time
+now shifts back to the launch path: M1 publication prep, M5 Pro script
+(whose stats panel presents *measured descriptive statistics*, not edge
+claims — fully supported by this program), M4 parity, M6 completion.
+
 ## Research finding (session 4) — transfer verdict: sweep family RETIRED
 
 The BTC-selected trend-aligned 4h config, run frozen on instruments it
