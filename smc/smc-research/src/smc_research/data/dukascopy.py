@@ -59,23 +59,23 @@ def fetch_month(
         # Dukascopy rate-limits sustained pulls (429): pace politely and back
         # off hard on throttle responses. Bulk history lands in the Parquet
         # cache, so this cost is paid once per month-file ever.
-        time.sleep(0.4)
-        for attempt in range(6):
+        time.sleep(1.5)
+        for attempt in range(10):
             try:
                 resp = client.get(url)
                 if resp.status_code == 404:
                     return None
                 if resp.status_code == 429:
-                    time.sleep(5 * (attempt + 1))
+                    time.sleep(min(15 * (attempt + 1), 90))
                     continue
                 resp.raise_for_status()
                 break
             except httpx.TransportError:
-                if attempt == 5:
+                if attempt == 9:
                     raise
                 time.sleep(2**attempt)
         else:
-            raise RuntimeError(f"rate-limited on {url} after 6 attempts")
+            raise RuntimeError(f"rate-limited on {url} after 10 attempts")
         if not resp.content:
             return None
         raw = lzma.decompress(resp.content, format=lzma.FORMAT_AUTO)
