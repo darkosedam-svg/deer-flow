@@ -5,8 +5,11 @@ Runs a simple moving-average crossover backtest on synthetic GBM price data,
 so it works fully offline. See Install.md / docs for setup instructions:
 
     uv venv .venv-vbt --python 3.11
-    uv pip install --python .venv-vbt/bin/python "git+https://github.com/polakowo/vectorbt.git"
+    uv pip install --python .venv-vbt/bin/python "git+https://github.com/polakowo/vectorbt.git" "plotly<6"
     .venv-vbt/bin/python scripts/vectorbt_demo.py
+
+Note: plotly must stay below v6 — newer plotly removed the mapbox template
+properties that vectorbt's bundled themes still reference, breaking import.
 """
 
 import numpy as np
